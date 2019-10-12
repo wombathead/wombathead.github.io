@@ -16,7 +16,7 @@
 title: The Software Parade
 email: tomjarchbold@gmail.com
 description: >- # ignore newlines until "baseurl:"
-    Programming, theoretical computer science, music, books
+    Thoughts on programming, maths, and technology
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
