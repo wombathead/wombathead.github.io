@@ -3,5 +3,6 @@ layout: page
 title: contact
 permalink: /contact/
 ---
+Please send all hate mail to [tomjarchbold@gmail.com][email]
 
-Please send all hate mail to tomjarchbold+kys@gmail.com
+[email]: mailto:tomjarchbold+kys@gmail.com
