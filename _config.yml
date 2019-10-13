@@ -23,7 +23,7 @@ twitter_username:
 github_username:  wiggywombathead
 
 # Build settings
-theme: jekyll-theme-cayman
+theme: minima
 plugins:
   - jekyll-feed
 
