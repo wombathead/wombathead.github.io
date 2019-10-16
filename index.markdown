@@ -4,3 +4,9 @@
 
 layout: home
 ---
+
+Hello there and welcome to my site. Please bear with me while I flesh this all
+out with a few posts.  In the meantime feel free to explore my
+[Github][my-github].
+
+[my-github]: [https://github.com/wiggywombathead]
