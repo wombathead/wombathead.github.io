@@ -71,6 +71,7 @@ solvers [\[2\]][oink]. It would also be fun to implement a way of playing and
 solving parity games in code, which I also plan to do over the next week or
 two.
 
+[parity-games]: https://en.wikipedia.org/wiki/Parity_game
 [mu-calculus]: https://en.wikipedia.org/wiki/Modal_%CE%BC-calculus
 [det-subexp]: https://www.dcs.warwick.ac.uk/~mju/Papers/JPZ08-SIAMJComp.pdf
 [oink]: https://arxiv.org/pdf/1801.03859.pdf
