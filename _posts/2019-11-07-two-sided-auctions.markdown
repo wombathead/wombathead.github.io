@@ -60,29 +60,12 @@ smoothing isn't the best). Other, better options include Good-Turing Smoothing
 and Kneser-Ney Smoothing, but there wasn't the time to implement them
 successfully.
 
-## The Theory of Number-Guessing Games
-Next up was Algorithmic Game Theory -- there is not much to say about this
-other than it consisted of computing some Nash Equilibria given a game, and in
-the more general sense commenting on the Nash Equilibria if the payoff matrices
-took some form for variable payoffs. Most interesting was constructing the
-normal-form of the following game:
+## Playing games
+Next up was Algorithmic Game Theory -- there is not much to say about this as
+it was more or less just a problem sheet to do with computing and
+characterising Nash Equilibria in various example games.
 
-Two players, I and II, play a game as follows: I selects a number from the set
-$${2, 3, 4}$$ and II picks two numbers from the same set. If II picks any of
-the same numbers as I, I pays II that amount to II. Else, the game is a draw.
-
-We get the following payoff matrix:
-
-| I, II | $${2,3}$$ | $${2, 4}$$ | $${3, 4}$$ |
-|------:|:---------:|:----------:|:----------:|
-| $$2$$ | $$-2, 2$$ |  $$-2, 2$$ |  $$0, 0$$  |
-| $$3$$ | $$-3, 3$$ |  $$ 0, 0$$ |  $$3, 3$$  |
-| $$4$$ | $$ 0, 0$$ |  $$-4, 4$$ |  $$4, 4$$  |
-
-Eventually we find that there is Mixed Nash Equilibrium at $$((\frac{6}{13},
-\frac{4}{13}, \frac{3}{13}), (\frac{7}{13}, \frac{5}{13}, \frac{1}{13}))$$.
-
-## The truth, the whole truth, and nothing but the truth
+## Two-Sided Combinatorial Auctions
 The final assignment was a critical analysis of a scientific paper of our
 choosing: I went for *Approximately Efficient Two-Sided Combinatorial Auctions*
 by Colini-Baldeschi et al. [[1]][AETSCA], as I am interested in reading more on
@@ -98,10 +81,7 @@ agents' valuation functions fulfilling slightly different constraints, achieve
 a $$(2+4\alpha)$$-approximation of the optimal social welfare. They also
 introduce a new concept *Direct Trade Strong Budget Balance*, which prevents
 agents from receiving money if they are not directly involved in a trade (that
-is, selling a bundle). For more context, I would recommend reading the classic
-paper [[2]][MyersonSatterthwaite] which proves the impossibility result of an
-exact mechanism, and [[3]][DynamicDoubleAuctions] and [[4]][MUDA] for some more
-contemporary work in the area.
+is, selling a bundle), which may be desired in some contexts. 
 
 Well that's what I've been working on these past few weeks -- workload seems to
 be a bit lighter after next week, so I may be able to get some more stuff out
@@ -114,6 +94,3 @@ the future slightly more focused than this has been -- until next time.
 [perplexity]: https://towardsdatascience.com/perplexity-intuition-and-derivation-105dd481c8f3
 [laplace]: https://medium.com/syncedreview/applying-multinomial-naive-bayes-to-nlp-problems-a-practical-explanation-4f5271768ebf
 [AETSCA]: https://dl.acm.org/citation.cfm?id=3085128
-[MyersonSatterthwaite]: https://cpb-us-w2.wpmucdn.com/campuspress.yale.edu/dist/3/352/files/2011/01/1983-bilateral-trade.pdf
-[DynamicDoubleAuctions]: https://epubs.siam.org/doi/pdf/10.1137/1.9781611975482.11
-[MUDA]: https://pdfs.semanticscholar.org/abfb/f52b64e728d0a2bf52467a9fffce8926f849.pdf

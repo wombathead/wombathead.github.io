@@ -3,17 +3,19 @@ layout: page
 title: about
 permalink: /about/
 ---
-Hello, I'm Tom and I am a postgraduate student in computer science at the
-University of Warwick. My go-to drink is Guinness, but remain open to always
-broadening my horizons. So far I am a fan of the honey mead which I had at the
-Warwick [Real Ale Festival][real-ale] and the Plum Porter which I tried at the
-[Watford RFC Beer Festival][real-beer]. I like playing rugby and programming,
-and have just started learning the guitar. At the moment I am reading The
-Idiot, and most often listen to Pink Floyd and The Doors.
+Hello, I'm Tom and I am a postgraduate student in the computer science at the
+University of Warwick. I enjoy playing rugby, programming, and am currently
+learning to play the guitar, mostly from YouTube and through the help of
+[JustinGuitar][justinguitar]. I have just finished reading the Watchmen graphic
+novel and plan to watch the movie at some point. I like listening to jazz and
+rock music, with a particular soft spot for Pink Floyd. I have also recently
+stumbled across the group MONO and I would recommend giving them a listen.
 
 My academic interests revolve around theoretical computer science, in
-particular algorithmic game theory and graph algorithms, but also like computer
-graphics, machine learning, and systems programming.
+particular algorithmic game theory, in particular mechanism design and
+approximation, randomisation, dynamic, and online algorithms in this context.
+Computer graphics and systems programming are also fun things to get involved
+with in my spare time.
 
 {% 
 	include image.html
@@ -23,5 +25,4 @@ graphics, machine learning, and systems programming.
 	Technologies (I'm the one on the right)."
 %}
 
-[real-ale]: https://www.warwicksu.com/societies-sports/societies/realale/
-[real-beer]: https://www.watfordrfcbeerfestival.co.uk/
+[justinguitar]: https://www.justinguitar.com/

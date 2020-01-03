@@ -8,10 +8,12 @@ tags: [computer science, graph theory]
 
 {% include mathjax.html %}
 
-Here's one for you: on average, people have fewer friends than their friends.
-But how can that possibly be, without some super-being with infinite friends?
-In this post I will attempt to explain to you one of my favourite paradoxes
-from graph theory/statistics.
+Here's an interesting paradox: on average, a randomly chosen person will have
+fewer friends than their friends. On top of serving as a knock to one's
+confidence, it also seems impossible -- how can it be that a random person's
+friend has on average more friends than them, when they are part of the same
+network? In this post I will attempt to explain to you one of my favourite
+paradoxes from graph theory/statistics.
 
 Firstly, this paradox isn't unique to the fact that we are talking about
 peoples' friends -- it could apply to any relation on a network (for example,
