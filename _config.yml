@@ -13,19 +13,32 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The Software Parade
-email: tomjarchbold@gmail.com
+title: Electronic Ladyland
+
+author:
+  name: Tom Archbold
+  email: "tomjarchbold@gmail.com"
+
 description: >- # ignore newlines until "baseurl:"
-    Thoughts on programming, maths, and technology
+  A website from Tom Archbold, the protagonist of reality
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: wiggywombathead
 twitter_username: 
-github_username:  wiggywombathead
 
 # Build settings
 theme: minima
+
+minima:
+  skin: dark
+
 plugins:
   - jekyll-feed
+
+header_pages:
+  - about.md
+  - publications.md
+  - teaching.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -35,7 +48,8 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  [archive/]
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

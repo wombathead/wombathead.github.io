@@ -83,8 +83,9 @@ $$
 
 Now, $$\mu$$ and $$\sigma^2$$ are both obviously non-negative. For a graph with
 varying degrees among its nodes, we also have that the two values are also
-strictly positive (i.e. non-zero). Hence the average degree of a randomly
-chosen friend is strictly greater than the average degree of a random node.
+strictly positive (i.e. positive and non-zero). Hence the average degree of a
+randomly chosen friend is strictly greater than the average degree of a random
+node.
 
 Hopefully this had shed some light on what I find to be an interesting result
 from graph theory and statistics -- I particularly like it as it says a lot and
