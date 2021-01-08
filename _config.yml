@@ -13,14 +13,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Electronic Ladyland
+title: Any Colour
 
 author:
   name: Tom Archbold
   email: "tomjarchbold@gmail.com"
 
 description: >- # ignore newlines until "baseurl:"
-  A website from Tom Archbold, the protagonist of reality
+  Site description pending.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: wiggywombathead

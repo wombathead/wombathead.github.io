@@ -5,4 +5,4 @@
 layout: home
 ---
 
-What to put here, I wonder?
+Please imagine some blog posts here...
