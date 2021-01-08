@@ -15,9 +15,8 @@
 
 title: Any Colour
 
-author:
-  name: Tom Archbold
-  email: "tomjarchbold@gmail.com"
+author: Tom Archbold
+email: "tomjarchbold@gmail.com"
 
 description: >- # ignore newlines until "baseurl:"
   Site description pending.
