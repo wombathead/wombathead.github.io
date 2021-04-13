@@ -4,7 +4,7 @@ title: about
 permalink: /about/
 ---
 
-# Currently
+# Who am I?
 
 I am a firstyear Ph.D. student in Computer Science at King's College London,
 where I am part of the [Distributed Artificial Intelligence][DAI] research
@@ -12,7 +12,7 @@ group. My research research interests are in algorithmic game theory, mechanism
 design, and other areas of theoretical computer science. I am funded by an
 [EPSRC DTP studentship][epsrc-dtp].
 
-# Previously
+# Who was I?
 
 Prior to King's I completed a BSc. and MSc. in Computer Science at the
 University of Warwick. For my master's thesis I implemented a decentralised
@@ -23,21 +23,22 @@ first- and second-year computer science undergraduates.
 
 I completed a three-month internship at [Imagination Technologies][imgtec],
 where I was part of the Vulkan driver team. If you've made a Vulkan program
-with index buffers using 8-bit indices, you're welcome.
+with index buffers using 8-bit indices, you're welcome (charitable donations
+welcome).
 
-# Constantly
+# Other
 
-I like any opportunity to write some code, though I am particularly fond of
-computer graphics programming, and using code to solve fun puzzles. I am a big
-fan of [Project Euler][project-euler] and Eric Wastl's [Advent of
-Code][advent-of-code]. I am currently finishing up 2020, after which I plan on
-going back and completing the rest of the years. My current favourite language
-is [Lisp][common-lisp], though I am no expert.
+I like any opportunity to write some code, and I am particularly fond of using
+code to solve fun puzzles -- I am a big fan of [Project Euler][project-euler]
+and Eric Wastl's [Advent of Code][advent-of-code]. I also like computer
+graphics programming and implementing myself the various algorithms I come
+across. Currently, my favourite programming language is (Common)
+[Lisp][common-lisp], though I am no expert.
 
 I played rugby for the University of Warwick RFC First XV for all of my four
-years there and currently play for my local team. I am also a big fan of the
-guitar, so if you're name is George and/or you know all the chords, please get
-in touch.
+years there and currently play for my local team. I like cricket too. I play
+the guitar and saxophone and am a big fan of Pink Floyd, Jimi Hendrix, Frank
+Zappa, and Red Hot Chili Peppers. 
 
 {% 
 	include image.html

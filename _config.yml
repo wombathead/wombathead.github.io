@@ -13,23 +13,24 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Any Colour
+title: Green is the Colour
 
 author: Tom Archbold
 email: "tomjarchbold@gmail.com"
 
 description: >- # ignore newlines until "baseurl:"
   Site description pending.
+
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: wiggywombathead
+url: "ass" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: wombathead
 twitter_username: 
 
 # Build settings
 theme: minima
 
 minima:
-  skin: dark
+  skin: solarized
 
 plugins:
   - jekyll-feed
