@@ -16,13 +16,13 @@
 title: Green is the Colour
 
 author: Tom Archbold
-email: "tomjarchbold@gmail.com"
+#email: "tomjarchbold@gmail.com"
 
 description: >- # ignore newlines until "baseurl:"
-  Site description pending.
+  My corner of the internet.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "ass" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tomarchbold.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: wombathead
 twitter_username: 
 
