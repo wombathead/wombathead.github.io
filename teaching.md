@@ -8,7 +8,8 @@ At King's College London I have been a graduate teaching assistant for the
 following modules:
 - [6CCS3OME Optimization Methods][optimization-methods] (Jan-March '21)
   - single-source shortest path, all pairs shortest paths, network
-	flow, linear programming, optimisation methods for NP-hard problems
+	flow/congestion problems, linear programming, optimisation methods for
+	NP-hard problems (heuristics, genetic algorithms, simulated annealing)
 
 I also privately tutor for GCSE and A-level maths and computer science.
 
