@@ -36,10 +36,10 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - about
-  - research
-  - teaching
-  - misc.
+  - about.md
+  - research.md
+  - teaching.md
+  - misc.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
