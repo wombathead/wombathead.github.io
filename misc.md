@@ -1,6 +1,6 @@
 ---
 layout: page
-title: miscellany
+title: misc.
 permalink: /misc/
 ---
 
@@ -18,10 +18,23 @@ you exploring them, too.
 - [Quanta Magazine](https://www.quantamagazine.org/)
 - [Boaz Barak's blog](https://windowsontheory.org/)
 - [Adam's Apples](https://adamapples.blogspot.com/)
+- [Patrick Totzke's blog](https://cgi.csc.liv.ac.uk/~patrick/)
 
-# Open problems in CS
+# Open problems
 
-- https://a3nm.net/work/research/questions/
+- In [computer science](https://a3nm.net/work/research/questions/)
+- [Open Problem Garden](www.openproblemgarden.org/)
+
+# Short Reads
+
+- [A Sound of Thunder](http://www.astro.sunysb.edu/fwalter/AST389/ASoundofThunder.pdf)
+- [The Ph.D. Octopus](https://www.uky.edu/~eushe2/Pajares/octopus.html)
+- [Perl, the first postmodern computer language](http://www.wall.org/~larry/pm.html)
+
+# Tools
+
+- [two](https://q.uiver.app/) [nice](https://tikzcd.yichuanshen.de/)
+  diagram-drawing tools
 
 # Graphics
 
@@ -34,13 +47,11 @@ you exploring them, too.
 - [osdev wiki](https://wiki.osdev.org/)
 - [Computer Science from the Bottom Up](https://www.bottomupcs.com/)
 
-# Short Reads
-
-- [A Sound of Thunder](http://www.astro.sunysb.edu/fwalter/AST389/ASoundofThunder.pdf)
-- [The Ph.D. Octopus](https://www.uky.edu/~eushe2/Pajares/octopus.html)
-
 # Miscellaneous
 
+- [something](http://www.arf.ru/Notes/) to do with Frank Zappa
+- [The Official Ninja webpage](www.realultimatepower.net)
+- [Food vs. Food](https://kale.world/)
 - [Hacker News "Classics"](https://jsomers.net/hn/)
 - [Tim Davies on Quora](https://www.quora.com/profile/Tim-Davies-28)
 - Buy old military jets [here](https://www.everettaero.com/)
