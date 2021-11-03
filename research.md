@@ -1,24 +1,36 @@
 ---
-layout: page
-title: research
-permalink: /research/
+layout: default
+title: Research
+navOrder: 3
 ---
 
-# Interests
+{% include mathjax.html %}
 
+My research interests are in:
 - algorithmic game theory and mechanism design
 - complexity theory
 - bounded rationality
 
-# Publications, talks, etc.
+## Publications
 
-Nope, none yet!
+None yet!
 
-# Links for convenience
+## Events attended
 
-- [ICALP 2021](http://easyconferences.eu/icalp2021/)
-- [HALG 2021](https://highlightsofalgorithms.org/)
+- SAGT 2021 tutorials:
+  - Algorithmic challenges in information design 
+  - Understanding the power and limitations of clock auctions
+- [European Summer School on Learning in Games, Markets, and Online Decision
+Making](https://sites.google.com/a/diag.uniroma1.it/algadimar/european-summer-school-september-6-10-2021)
+(September 6-10th, 2021)
+- [AGT Mentoring Workshop
+  2020](https://www.cs.princeton.edu/~smattw/AMW20/index.html) (June 15th, 2020)
+
+## Conferences attended
+
+- [SAGT 2021](https://events.au.dk/sagt2021/)
+- [ICALP 2021](http://easyconferences.eu/icalp2021/) (student volunteer)
+- [HALG 2021](https://highlightsofalgorithms.org/) 
 - [AAMAS 2021](https://aamas2021.soton.ac.uk/)
 - [SODA 2021](https://www.siam.org/conferences/cm/conference/soda21)
 - [EC 2020](https://ec20.sigecom.org/)
-- [AGT Mentoring Workshop 2020](https://www.cs.princeton.edu/~smattw/AMW20/index.html)

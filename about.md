@@ -1,7 +1,7 @@
 ---
-layout: page
-title: about
-permalink: /about/
+layout: default
+title: About
+navOrder: 2
 ---
 
 I am a firstyear Ph.D. student in Computer Science at King's College London,
@@ -16,7 +16,7 @@ markets][prediction-markets] and was supervised by Matthias Englert, and my
 undergraduate dissertation was (trying to make) an educational kernel for the
 Raspberry Pi and was supervised by Adam Chester.
 
-My CV is [here](thomas_archbold.pdf).
+My CV is [here](/assets/thomas_archbold.pdf).
 
 I like programming for fun and currently my favourite language is (Common)
 Lisp. If you haven't heard of them, take a look at [Advent of
@@ -27,7 +27,7 @@ questionable standard.
 
 {% 
 	include image.html
-	url="/images/me_and_mugurel_cropped.jpg"
+	url="/assets/me_and_mugurel_cropped.jpg"
 	width="400"
 	description="On the last day of my summer placement with Imagination
 	Technologies (I'm the one on the right)."
