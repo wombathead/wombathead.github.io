@@ -8,8 +8,9 @@ navOrder: 3
 
 My research interests are in:
 - algorithmic game theory and mechanism design
-- complexity theory
 - bounded rationality
+- complexity theory
+- algorithms and data structures
 
 ## Publications
 
@@ -18,8 +19,8 @@ None yet!
 ## Events attended
 
 - SAGT 2021 tutorials:
-  - Algorithmic challenges in information design 
-  - Understanding the power and limitations of clock auctions
+  - Algorithmic challenges in information design by Martin Hoefer
+  - Understanding the power and limitations of clock auctions by Vasilis Gkatzelis
 - [European Summer School on Learning in Games, Markets, and Online Decision
 Making](https://sites.google.com/a/diag.uniroma1.it/algadimar/european-summer-school-september-6-10-2021)
 (September 6-10th, 2021)

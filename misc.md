@@ -56,7 +56,7 @@ you exploring them, too.
 
 # Miscellaneous
 
-- [How Dr. Seuss would prove the Halting
+- [How Dr. Seuss would have proved the Halting
   Problem](https://ebiquity.umbc.edu/blogger/2008/01/19/how-dr-suess-would-prove-the-halting-problem-undecidable/)
 - [Counterintuitive maths
   facts](https://axisofordinary.substack.com/p/the-most-counterintuitive-facts-in)
