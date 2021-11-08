@@ -50,18 +50,18 @@ sections:
 ## Programming
 
 Graphics:
-- [Vulkan Tutorial](https://vulkan-tutorial.com/)
-- [learnopengl](https://learnopengl.com/)
-- [OGLdev](https://ogldev.org/)
+- Alexander Overvoorde's [Vulkan Tutorial](https://vulkan-tutorial.com/)
+- Joey de Vries' [Learn OpengGL](https://learnopengl.com/)
+- Etay Meiri's [OGLdev](https://ogldev.org/)
 
 OS Dev:
-- [osdev wiki](https://wiki.osdev.org/)
+- [OSDev wiki](https://wiki.osdev.org/)
 - [Computer Science from the Bottom Up](https://www.bottomupcs.com/)
 
 ## Tools
 
-- [two](https://q.uiver.app/) [nice](https://tikzcd.yichuanshen.de/)
-  diagram-drawing tools
+- Two nice diagram tools, [quiver](https://q.uiver.app/) and
+  [tikzcd](https://tikzcd.yichuanshen.de/)
 
 ## Other
 
@@ -70,7 +70,7 @@ OS Dev:
 - [Counterintuitive maths
   facts](https://axisofordinary.substack.com/p/the-most-counterintuitive-facts-in)
 - [Grafica Obscura](http://graficaobscura.com/)
-- [something](http://www.arf.ru/Notes/) to do with Frank Zappa
+- [Something](http://www.arf.ru/Notes/) to do with Frank Zappa
 - [The Official Ninja webpage](www.realultimatepower.net)
 - [Food vs. Food](https://kale.world/)
 - [Hacker News "Classics"](https://jsomers.net/hn/)
