@@ -4,10 +4,19 @@ title: Misc.
 navOrder: 4
 ---
 
-Here are some links. They are mostly for me to keep track of but I can't stop
-you exploring them, too.
+# Miscellanious content
 
-# Blogs
+Here are some links. They are mostly for me to keep track of but I can't stop
+you exploring them, too. This list is getting quite long so here are links to
+sections:
+- [blogs](#blogs)
+- [short reads](#short-reads)
+- [open research problems](#open-problems)
+- [programming](#programming)
+- [tools](#tools)
+- [other](#other)
+
+## Blogs
 
 - [Scott Aaronson's blog](https://www.scottaaronson.com/blog/)
 - [Lance Fortnow and Bill Gasarch's blog](https://blog.computationalcomplexity.org/)
@@ -23,12 +32,7 @@ you exploring them, too.
 - [Tim Black's blog](http://math.uchicago.edu/~timblack/)
 - [Jay Riverlong's blog](https://jayriverlong.github.io/)
 
-# Open problems
-
-- In [computer science](https://a3nm.net/work/research/questions/)
-- [Open Problem Garden](www.openproblemgarden.org/)
-
-# Short Reads
+## Short Reads
 
 - [A Sound of Thunder](http://www.astro.sunysb.edu/fwalter/AST389/ASoundofThunder.pdf)
 - [The Ph.D. Octopus](https://www.uky.edu/~eushe2/Pajares/octopus.html)
@@ -38,23 +42,28 @@ you exploring them, too.
 - [What's going on here, with this
   human?](https://grahamduncan.blog/whats-going-on-here/)
 
-# Tools
+## Open problems
 
-- [two](https://q.uiver.app/) [nice](https://tikzcd.yichuanshen.de/)
-  diagram-drawing tools
+- In [computer science](https://a3nm.net/work/research/questions/)
+- [Open Problem Garden](www.openproblemgarden.org/)
 
-# Graphics
+## Programming
 
+Graphics:
 - [Vulkan Tutorial](https://vulkan-tutorial.com/)
 - [learnopengl](https://learnopengl.com/)
 - [OGLdev](https://ogldev.org/)
 
-# OS Dev
-
+OS Dev:
 - [osdev wiki](https://wiki.osdev.org/)
 - [Computer Science from the Bottom Up](https://www.bottomupcs.com/)
 
-# Miscellaneous
+## Tools
+
+- [two](https://q.uiver.app/) [nice](https://tikzcd.yichuanshen.de/)
+  diagram-drawing tools
+
+## Other
 
 - [How Dr. Seuss would have proved the Halting
   Problem](https://ebiquity.umbc.edu/blogger/2008/01/19/how-dr-suess-would-prove-the-halting-problem-undecidable/)

@@ -6,6 +6,8 @@ navOrder: 3
 
 {% include mathjax.html %}
 
+# Research
+
 My research interests are in:
 - algorithmic game theory and mechanism design
 - bounded rationality
