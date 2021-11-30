@@ -24,13 +24,20 @@ sections:
 - [Paul Graham's blog](http://www.paulgraham.com/)
 - [Timothy Gowers' blog](https://gowers.wordpress.com/)
 - [Terence Tao's blog](https://terrytao.wordpress.com/)
+- [Peter Seibel's blog](https://gigamonkeys.com/)
 - [Quanta Magazine](https://www.quantamagazine.org/)
 - [Boaz Barak's blog](https://windowsontheory.org/)
 - [Adam's Apples](https://adamapples.blogspot.com/)
 - [Patrick Totzke's blog](https://cgi.csc.liv.ac.uk/~patrick/)
+- [Nick Drozd's blog](https://nickdrozd.github.io/)
 - [Cantor's Paradise](https://www.cantorsparadise.com/)
 - [Tim Black's blog](http://math.uchicago.edu/~timblack/)
 - [Jay Riverlong's blog](https://jayriverlong.github.io/)
+- [Yin Tat Lee](https://yintat.com/)
+- [Peter Norvig](http://www.norvig.com/)
+- [Matt Ruby](https://mattruby.substack.com/)
+- [David Morgan-Mar's blog](https://www.dangermouse.net/) and [Irregular
+  Webcomic](https://www.irregularwebcomic.net/)
 
 ## Short Reads
 
@@ -41,6 +48,10 @@ sections:
   Research](https://medium.com/digital-diplomacy/how-to-look-for-ideas-in-computer-science-research-7a3fa6f4696f)
 - [What's going on here, with this
   human?](https://grahamduncan.blog/whats-going-on-here/)
+- [Consider the
+  Lobster](https://genius.com/David-foster-wallace-consider-the-lobster-annotated)
+- [Who can name the bigger
+  number?](https://www.scottaaronson.com/writings/bignumbers.html)
 
 ## Open problems
 
@@ -48,6 +59,11 @@ sections:
 - [Open Problem Garden](www.openproblemgarden.org/)
 
 ## Programming
+
+Puzzles:
+- [Advent of Code](https://adventofcode.com/)
+- [Project Euler](https://projecteuler.net/)
+- [Rosalind](https://rosalind.info/problems/locations/)
 
 Graphics:
 - Alexander Overvoorde's [Vulkan Tutorial](https://vulkan-tutorial.com/)
@@ -81,4 +97,6 @@ OS Dev:
 - [QuantGuru](https://quantguru.ai/index.php/en/)
 - [C++ compiler](https://stackoverflow.com/questions/5508110/why-is-this-program-erroneously-rejected-by-three-c-compilers)
 - [identicon](https://github.com/identicons/wombathead.png)
-
+- [They Shoot Pictures, Don't
+  They?](https://www.theyshootpictures.com/index.htm)
+- [Forgotify](https://forgotify.com/player.cfm)
