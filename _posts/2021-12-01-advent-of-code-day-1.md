@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Advent of Code -- Day 1: Sonar Sweep
+title: Advent of Code 2021 -- Day 1 Sonar Sweep
 date: 2021-12-01
 ---
 
