@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Advent of Code 2021 -- Day 1 Sonar Sweep
+title: "Advent of Code 2021 -- Day 1: Sonar Sweep"
 date: 2021-12-01
 ---
 
@@ -52,9 +52,14 @@ window.
         count (> sum prev-sum)))
 ```
 
-Quite a relaxed introduction back into Advent of Code. I'm pleased with what
-I've written, not least because it looks particularly clean, and I'm looking
-forward to spending and inevitably wasting more time on these puzzles as the
-month goes on (not like I have an important viva to work on...).
+One generalisation that could be made is the size of the sliding window, though
+it's not immediately obvious how to change `for (a b c) in input` to reflect
+this. Being Lisp I imagine it might require the use of macros, which is
+something I'm still not that well versed in.
+
+Overall quite a relaxed introduction back into Advent of Code. I'm pleased with
+what I've written, not least because it looks clean, and I'm looking forward to
+spending (and inevitably, wasting) more time on these puzzles over the rest of
+the month -- it's not like I have an important viva to be working on...
 
 [^1]: That opening, while catchy, took far too much effort.
