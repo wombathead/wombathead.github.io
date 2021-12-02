@@ -37,9 +37,8 @@ times the expression following it evaluates to `t`.
 Part two was a slight modification of the previous part: now we had to keep
 track of a sliding window of size three and count the number of times the sum
 of the elements in the window exceeded the sum of the elements in the previous
-window. Only a few changes were required, and the `on` clause was very useful
-to be able to assign and work with the values `a`, `b`, and `c` of the sliding
-window.
+window. Only a few changes were required to the code, and the `on` clause was
+very useful for assigning and working with the elements of the sliding window.
 
 ```lisp
 (defun advent-01b (filename)
