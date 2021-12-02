@@ -13,10 +13,10 @@ input was the depth readings from our submarine's sonar and we were determining
 how the underwater landscape to safely navigate it. With that successfully done
 we are now following the route programmed into the submarine's systems.
 
-The input for the puzzle consists of a number of lines of the form `direction
-x` telling us how to move the submarine, where `direction` can be one of
-`up`,`down`, or `forward` and `x` is the number of units to move. The first
-part is simply a case of starting at (0,0) and following the directions, where
+The input for the puzzle consists of a number of lines of the form `(direction
+x)` telling us how to move the submarine, where `direction` can be one of `up`,
+`down`, or `forward` and `x` is the number of units to move. The first part is
+simply a case of starting at (0,0) and following the directions, where
 `forward` increases our horizontal position, and `down` and `up` increase and
 decrease our depth, respectively.
 
@@ -52,5 +52,11 @@ by `x`.
              (up (decf aim distance)))
         finally (return (* x y))))
 ```
+
+I like Lisp's `read-from-string` function, which converts a string into a
+symbol, because it means you can effectively get a `switch` statement for
+strings without numerous calls to, for example, `string=`. I believe it's also
+quicker to compare two symbols for equality than to compare two strings, so
+even though the difference is probably insignificant it does feel a bit nicer.
 
 Two simple loops, two stars. Nice, onto the next.
