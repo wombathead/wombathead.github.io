@@ -28,17 +28,17 @@ The answer to the puzzle was then the product of `gamma` and `epsilon`, where
 common bit at each index. This could be found from `gamma` by just flipping its
 bits. Unfortunately we can't just call `(lognot gamma)` since this was
 resulting in negative numbers[^1], so instead we find `epsilon` with XOR
-between `gamma` and $2^n-1$, where $n$ is the length of the bitstring.
+between `gamma` and $$2^n-1$$, where $$n$$ is the length of the bitstring.
 
 ```lisp
 (loop with input = (get-file filename)
-	with n = (length (first input))
-	with m = (length input)
-	for i from 0 below n
-	with gamma = 0
-	for zeroes = (count #\0 (mapcar (lambda (bitstring) (char bitstring i)) input))
-	do (setf gamma (if (>= zeroes (/ m 2)) (ash gamma 1) (1+ (ash gamma 1))))
-	finally (return (* gamma (logxor (1- (expt 2 n)) gamma)))))
+      with n = (length (first input))
+      with m = (length input)
+      for i from 0 below n
+      with gamma = 0
+      for zeroes = (count #\0 (mapcar (lambda (bitstring) (char bitstring i)) input))
+      do (setf gamma (if (>= zeroes (/ m 2)) (ash gamma 1) (1+ (ash gamma 1))))
+      finally (return (* gamma (logxor (1- (expt 2 n)) gamma)))) 
 ```
 
 Part two was a bit more complex. We have to find two bitstrings, `generator`
@@ -59,15 +59,16 @@ also use a function `nth-char=`, which simply determines whether the nth char
 of the given string is equal to the given character.
 
 ```lisp
-(flet (filter-candidates (candidates filter-rule))
- (loop for i from 0 below (length (first candidates))
-	   with remaining = candidates
-	   for zeroes = (count #\0 (mapcar (lambda (bitstring) (char bitstring i)) remaining))
-	   for ones = (- (length remaining) zeroes)
-	   for char = (funcall filter-rule zeroes ones)
-	   until (= 1 (length remaining))
-	   do (setf remaining (remove-if-not (lambda (bitstring) (nth-char= bitstring i char)) remaining))
-	   finally (return (first remaining)))))
+(labels ((nth-char= (string n character) ...)
+         (filter-candidates (candidates filter-rule)
+           (loop for i from 0 below (length (first candidates))
+                 with remaining = candidates
+                 for zeroes = (count #\0 (mapcar (lambda (bitstring) (char bitstring i)) remaining))
+                 for ones = (- (length remaining) zeroes)
+                 for char = (funcall filter-rule zeroes ones)
+                 until (= 1 (length remaining))
+                 do (setf remaining (remove-if-not (lambda (bitstring) (nth-char= bitstring i char)) remaining))
+                 finally (return (first remaining)))))
 ```
 
 `filter-rule` is a function that takes two numbers and decides whether to
