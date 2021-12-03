@@ -31,15 +31,14 @@ resulting in negative numbers[^1], so instead we find `epsilon` with XOR
 between `gamma` and $2^n-1$, where $n$ is the length of the bitstring.
 
 ```lisp
-(defun advent-03a (filename)
-  (loop with input = (get-file filename)
-        with n = (length (first input))
-        with m = (length input)
-        for i from 0 below n
-        with gamma = 0
-        for zeroes = (count #\0 (mapcar (lambda (bitstring) (char bitstring i)) input))
-        do (setf gamma (if (>= zeroes (/ m 2)) (ash gamma 1) (1+ (ash gamma 1))))
-        finally (return (* gamma (logxor (1- (expt 2 n)) gamma)))))
+(loop with input = (get-file filename)
+	with n = (length (first input))
+	with m = (length input)
+	for i from 0 below n
+	with gamma = 0
+	for zeroes = (count #\0 (mapcar (lambda (bitstring) (char bitstring i)) input))
+	do (setf gamma (if (>= zeroes (/ m 2)) (ash gamma 1) (1+ (ash gamma 1))))
+	finally (return (* gamma (logxor (1- (expt 2 n)) gamma)))))
 ```
 
 Part two was a bit more complex. We have to find two bitstrings, `generator`
@@ -47,16 +46,20 @@ and `scrubber`, by successively filtering out bitstrings in the input that do
 not meet certain criteria. For `generator`, for each index we must find the
 most common bit among all remaining candidates (breaking ties in favour of 1)
 then filter out those without that bit at that index. For `scrubber`, we do the
-same but for the least common bit and break ties in favour of 0. Simple to
-state, but I found it took a fair bit of code to implement since we must track
-the remaining `generator` candidates and the remaining `scrubber` candidates
-separately. Since the two rules only differ slightly, I decided to write a
-function `filter-candidates` taking a list of candidates (the input) and a
-filter rule, which is a function returning the character to check equality for
-based on the number of ones and zeroes (to get the most or least common). 
+same but for the least common bit and break ties in favour of 0. Although
+simple to sate, I found it took a fair bit of code to implement the first time
+around as I was performing the filtering for `generator` and `scrubber` all
+within the same loop, which meant I had to keep track of separate variables for
+each. While this worked, I figured I could do better. Since the rules for
+filtering out candidates for the two bitstrings differed only slightly, I
+decided to write a function `(filter-candidates candidates filter-rule)` that
+took a list of candidate bitstrings and repeatedly applied the function
+`filter-rule` to remove invalid elements. Note that in the code snippet below I
+also use a function `nth-char=`, which simply determines whether the nth char
+of the given string is equal to the given character.
 
 ```lisp
-(filter-candidates (candidates filter-rule)
+(flet (filter-candidates (candidates filter-rule))
  (loop for i from 0 below (length (first candidates))
 	   with remaining = candidates
 	   for zeroes = (count #\0 (mapcar (lambda (bitstring) (char bitstring i)) remaining))
@@ -67,9 +70,18 @@ based on the number of ones and zeroes (to get the most or least common).
 	   finally (return (first remaining)))))
 ```
 
-To filter out all invalid candidates for `generator` and `scrubber`, I could
-just pass the puzzle input and a lambda function corresponding to the
-appropriate rules, like so:
+`filter-rule` is a function that takes two numbers and decides whether to
+return the character `0` or `1`. This is then run at each iteration to
+determine which character we would filter the remaining candidates on (i.e.,
+whether to look for a `0` or a `1` at the current index under consideration).
+For `generator` this was the rule specifying that, if the number of zeroes at
+the given index exceeds the number of ones then we remove all candidates
+without a `0` at the given index; for `scrubber` we remove all candidates
+without a `1` at the given index if the number of ones exceeds the number of
+zeroes. Actually filtering out all the invalid candidates is then simply a case
+of calling `filter-candidates` on the puzzle input, once for `generator` and
+once for `scrubber`, and a lambda function corresponding to the appropriate
+rule:
 
 ```lisp
 ;; filter out invalid bitstrings for generator
@@ -79,14 +91,14 @@ appropriate rules, like so:
 (filter-candidates input (lambda (zeroes ones) (if (<= zeroes ones) #\0 #\1)))
 ```
 
-I ended up taking two attempts at this, the first one worked but reused a lot
-of the code unnecessarily and had too many variables floating about, in order
-to keep track of both `generator` and `scrubber` at the same time. I'm much
-more pleased with the second attempt since it makes the code more generic and
-about ten lines more concise. Overall very pleased that I could make good use
-of higher-order functions. Already spent quite a bit more time on today's
-puzzles, so I imagine I'm only going to waste more time as the month
-progresses now.
+As I mentioned, I ended up taking two attempts at this. The first one completed
+the puzzle in a single loop but required extra variables to keep track of
+`generator` and `scrubber` candidates separately, and ended up reusing a lot of
+the code. I'm much happier with my second attempt since it makes the solution
+more generic and about ten lines more concise. I was also pleased to make use
+of higher-order functions since it isn't something I use often and it always
+feels powerful when it works. I already spent quite a bit more time on today's
+puzzles than the previous two days, so I'm preparing for the steady increase in
+difficulty and inevitable loss of more time as the month progresses.
 
-[^1]: I think probably because of the way numbers are represented, e.g. two's
-  complement.
+[^1]: I think this is probably because of the way numbers are represented, e.g. two's complement.
