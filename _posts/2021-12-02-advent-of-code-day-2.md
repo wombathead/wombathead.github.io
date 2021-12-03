@@ -10,8 +10,9 @@ story to boot. In 2019 you had to save Santa from being stranded in outer
 space, and last year you were flying all over the world to collect coins to pay
 for your holiday. This year it looks like we'll be underwater -- yesterday the
 input was the depth readings from our submarine's sonar and we were determining
-how the underwater landscape to safely navigate it. With that successfully done
-we are now following the route programmed into the submarine's systems.
+the changes in the underwater landscape in order to safely navigate it. With
+that successfully done we are now following the route programmed into the
+submarine's systems.
 
 The input for the puzzle consists of a number of lines of the form `(direction
 x)` telling us how to move the submarine, where `direction` can be one of `up`,
