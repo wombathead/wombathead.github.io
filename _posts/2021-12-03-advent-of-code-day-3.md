@@ -25,10 +25,12 @@ it once and add 1 (to "write a one" to the bitstring).
 
 The answer to the puzzle was then the product of `gamma` and `epsilon`, where
 `epsilon` was obtained in exactly the same way except by finding the least
-common bit at each index. This could be found from `gamma` by just flipping its
-bits. Unfortunately we can't just call `(lognot gamma)` since this was
-resulting in negative numbers[^1], so instead we find `epsilon` with XOR
-between `gamma` and $$2^n-1$$, where $$n$$ is the length of the bitstring.
+common bit at each index. Instead of executing the same loop again and flipping
+the inequality, this could be found from `gamma` by just flipping its bits.
+Unfortunately I couldn't just call `(lognot gamma)` since this was resulting in
+negative numbers[^1], so instead it was found with an XOR between `gamma` and a
+bitstring of all 1s, or $$2^n-1$$ where $$n$$ is the number of bits in `gamma`
+(simply the length of bitstrings given in the input).
 
 ```lisp
 (loop with input = (get-file filename)
