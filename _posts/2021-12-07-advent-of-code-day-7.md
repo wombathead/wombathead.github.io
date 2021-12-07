@@ -5,6 +5,8 @@ date: 2021-12-07
 lastEdited: 2021-12-07 10:00
 ---
 
+{% include mathjax.html %}
+
 Armed with the knowledge that the sheer mass resulting from the lanternfish's
 exponential growth will one day cause the earth to collapse into a black hole
 and extinguish humanity, meaning all your triumphs as well as mistakes will be

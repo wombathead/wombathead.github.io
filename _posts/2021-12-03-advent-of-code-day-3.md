@@ -4,6 +4,8 @@ title: "Advent of Code 2021 -- Day 3: Binary Diagnostic"
 date: 2021-12-03
 ---
 
+{% include mathjax.html %}
+
 Looks like the submarine is making some concerning noises and we have to write
 some code to figure out what's wrong with it. We are provided with the input as
 a list of bitstrings that represents the submarine's diagnostic report. For the
