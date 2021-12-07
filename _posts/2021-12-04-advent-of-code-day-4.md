@@ -43,15 +43,15 @@ ones as we discover them.
 
 ```lisp
 (loop for number in numbers
-	  with remaining-cards = (reverse bingo-cards)
-	  do (loop for card in remaining-cards
-			   do (mark-card number card)
-			   (setf remaining-numbers (rest numbers))
-			   unless (card-wins-p card)
-			   collect card into next-remaining-cards
-			   finally (setf remaining-cards next-remaining-cards))
-	  until (= 1 (length remaining-cards))
-	  finally (setf last-winning-card (first remaining-cards)))
+      with remaining-cards = (reverse bingo-cards)
+      do (loop for card in remaining-cards
+               do (mark-card number card)
+               (setf remaining-numbers (rest numbers))
+               unless (card-wins-p card)
+               collect card into next-remaining-cards
+               finally (setf remaining-cards next-remaining-cards))
+      until (= 1 (length remaining-cards))
+      finally (setf last-winning-card (first remaining-cards)))
 ```
 
 Once the list containing the remaining non-winning cards reaches length one, we
@@ -61,9 +61,9 @@ and simply mark the card until it is winning.
 
 ```lisp
 (loop for number in remaining-numbers
-	  do (mark-card number last-winning-card)
-	  until (card-wins-p last-winning-card)
-	  finally (return (* (card-value last-winning-card) number)))))
+      do (mark-card number last-winning-card)
+      until (card-wins-p last-winning-card)
+      finally (return (* (card-value last-winning-card) number)))  
 ```
 
 The hardest part about today's puzzle was probably the parsing code, which I
