@@ -17,13 +17,13 @@ moving from his starting position to the aligned position is minimised.
 
 Two simple loops to share for today's puzzles. In both cases, given our input
 of crab positions as a list of horizontal positions, we must find a point on
-which to align all the crabs to minimise their total cost. For the
-first part, a crab's cost for a proposed position `x` is simply the difference
-between its position and `x` -- that is, $$c_i(x_i,y)=||x_i-y||$. We can
-minimise this by simply iterating over all numbers between the maximum and
-minimum crab positions, calculating the cost of placing the alignment point
-there, and keeping the minimum calculated cost. The `minimize` construct is
-very useful here.
+which to align all the crabs to minimise their total cost. For the first part,
+a crab's cost for a proposed position `x` is simply the difference between its
+position and `x` -- that is, $$c_i(x_i,y)=||x_i-y||$$. We can minimise this by
+simply iterating over all numbers between the maximum and minimum crab
+positions, calculating the cost of placing the alignment point there, and
+keeping the minimum calculated cost. The `minimize` construct is very useful
+here.
 
 ```lisp
 (flet ((total-cost (position numbers)
