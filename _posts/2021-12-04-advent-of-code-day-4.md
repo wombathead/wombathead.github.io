@@ -2,7 +2,7 @@
 layout: post
 title: "Advent of Code 2021 -- Day 4: Giant Squid"
 date: 2021-12-04
-lastEdited: 2021-12-04 21:30
+lastEdited: 2021-12-06 23:00
 ---
 
 Having successfully deciphered the submarine's esoteric diagnostic reports, we
@@ -64,7 +64,6 @@ and simply mark the card until it is winning.
 	  do (mark-card number last-winning-card)
 	  until (card-wins-p last-winning-card)
 	  finally (return (* (card-value last-winning-card) number)))))
-
 ```
 
 The hardest part about today's puzzle was probably the parsing code, which I
