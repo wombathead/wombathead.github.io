@@ -18,6 +18,14 @@ My research interests are in:
 
 None yet!
 
+## Teaching
+
+- 6CCS3OME Optimization Methods (2021,2022)
+  - single-source shortest path, all-pairs shortest path, network flow, linear
+	programming, optimisation techniques for NP-hard problems
+- 4CCS1DST Data Structures (2022)
+  - data structures and algorithms, searching, sorting
+
 ## Events attended
 
 - SAGT 2021 tutorials:
