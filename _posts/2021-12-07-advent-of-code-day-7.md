@@ -74,6 +74,7 @@ $$
 c(m_2) & = L(m_2) + R(m_2) \\
 & = L(m_1) + \frac{n}{2}(m_2-m_1) + R(m_1) - \frac{n}{2}(m_2-m_1) \\
 & = L(m_1) + R(m_2)
+\end{align}
 $$
 
 Moreover, any point $$y \in [m_1,m_2]$$ has the same cost as placing the point
@@ -88,6 +89,7 @@ $$
 c(y) & = L(y) + R(y) \\
 & = L(m_1) + \frac{n}{2}(y-m_1) + R(m_1) - \frac{n}{2}(m_2-y) \\
 & = c(m_1)
+\end{align}
 $$
 
 It remains to show that $$c(y)$$ is optimal. Suppose we place $$y$$ outside
