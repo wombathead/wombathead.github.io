@@ -73,14 +73,14 @@ and $$m_2$$, or:
 $$ c_L(m_2) = c_L(m_1) + \frac{n}{2}(m_2-m_1) $$
 
 Similarly we may rewrite $$c_R(m_2)$$ as $$c_R(m_1) - \frac{n}{2}(m_2-m_1)$$
-and thus we get the cost $$c(m_2)$$ of placing the alignment point at $$m_2$$
-as:
+and thus we get the cost of placing the alignment point at $$m_2$$ as:
 
 $$
 \begin{align}
 c(m_2) & = c_L(m_2) + c_R(m_2) \\
 & = c_L(m_1) + \frac{n}{2}(m_2-m_1) + c_R(m_1) - \frac{n}{2}(m_2-m_1) \\
-& = c_L(m_1) + c_R(m_2)
+& = c_L(m_1) + c_R(m_1) \\
+& = c(m_1)
 \end{align}
 $$
 
@@ -111,9 +111,7 @@ $$
 
 So placing the alignment point outside the interval $$[m_1,m_2]$$ results in a
 strictly larger total cost, contradicting our assumption. Thus any point $$y
-\in [m_1,m_2]$$ is optimal. $$\qed$$
-
-The entire code for the first part is therefore:
+\in [m_1,m_2]$$ is optimal. QED
 
 ```
 (flet ((total-cost (position numbers)
@@ -125,11 +123,20 @@ The entire code for the first part is therefore:
     (total-cost y input))) 
 ```
 
+The entire code for the first part given above. Although the input is small
+enough to not make a practical difference, this solution is much more
+efficient. In the brute force solution we take time $$O(2^b)$$ to calculate
+the optimal alignment point $$y^*$$, since we iterate over all $$2^b$$ numbers
+representable by $$b$$ bits in the worst case[^2] and compute its cost. When
+using the median we instead take time $$O(n \log n)$$, since this is the time
+required to order the list and find the median, followed by a single
+calculation of the total resulting cost.
+
 The second part changed the crabs' cost functions, so instead of being the
 absolute difference between $$y$$ and $$x_i$$ it was now 1 if the crab was 1
 away from $$y$$, 1+2 if the crab was 2 away from $$y$$, 1+2+3 if it was 3 away
 from $$y$$, and so on. In other words, with $$d=|x_i-y|$$, when placing the
-alignment point at $$y$$ each crab $$i$$ now incurs the cost
+alignment point at $$y$$ each crab $$i$$ now incurs the cost:
 
 $$
 c_i(x_i,y) = \sum_{k=1}^d k = \frac{d(d+1)}{2}
@@ -159,3 +166,4 @@ optimal in the first part; now it remains to improve the efficiency of my
 solution for the second part.
 
 [^1]: We can follow symmetric reasoning to prove the claim when $$y < m_1$$.
+[^2]: i.e., the starting positions 0 and $$2^b-1$$ appear in the input.
