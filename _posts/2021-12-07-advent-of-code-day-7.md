@@ -24,7 +24,7 @@ Our puzzle's input is a list $$x_1,\ldots,x_n$$ of the crab submarines'
 starting positions. We want to find a point $$y$$ on which to align the crabs,
 and on placing the alignment point at $$y$$ then crab $$i$$ will incur a cost
 $$c_i(x_i,y)$$ to move from his starting position to that point. For the first
-part we are told that each crab incurs the cost $$c_i(x_i,y) = |x_i-y|$ for
+part we are told that each crab incurs the cost $$c_i(x_i,y) = |x_i-y|$$ for
 placing the point at $$y$$. In other words, a crab's cost is simply the
 distance he must move from his starting position to the alignment point. The
 second part slightly altered the crabs' cost functions, but we will talk about
@@ -56,60 +56,66 @@ the median values in the input, is an optimal alignment point.
 
 **Proof:** First observe that placing the point at $$m_1$$ or $$m_2$$ results
 in the same cost. This is trivial when $$n$$ is odd since there is only one
-median point, so suppose $$n$$ is even. Let $$L(y)$$ denote the sum of costs of
-all points in the input less than $$y$$, and $$R(y)$$ denote the analogous
-value for all points greater than $$y$$. Thus the cost of aligning at $$y$$ is
-$$c(y)=L(y)+R(y)$$. We want to show $$c(m_1)=c(m_2)$$, or
-$$L(m_1)+R(m_1)=L(m_2)+R(m_2)$$. Since $$m_1$$ and $$m_2$$ are adjacent
-points then we may rewrite $$L(m_2)$$ as
-$$L(m_2)=L(m_1)+\frac{n}{2}(m_2-m_1)$$, where the second term follows from the
-fact that there are $$\frac{n}{2}$$ points to the left of $$m_2$$ since it is
-the median, each of whom must travel the extra distance of $$(m_2-m_1)$$ to
-reach $$m_2$$ from $$m_1$$. Similarly we may rewrite $$R(m_2)$$ as
-$$R(m_2)=R(m_1)-\frac{n}{2}(m_2-m_1)$$ since $$m_2$$ is $$(m_2-m_1)$$ closer to
-the $$n/2$$ crabs on the right of $$m_2$$. Thus
+median point, so suppose $$n$$ is even. Throughout this short proof we will use
+the phrases "to the left/right of" a point $$p$$, which we will take to mean
+the points to the left/right of $$p$$ when the input is written as a
+non-decreasing list. Let $$c_L(y)$$ denote the sum of costs of all points in
+the input to the left of $$y$$, and $$c_R(y)$$ denote the analogous value for
+all points to the right of $$y$$. Thus the cost of aligning at $$y$$ is
+$$c(y)=c_L(y)+c_R(y)$$, and we want to show $$c(m_1)=c(m_2)$$. Since $$m_1$$
+and $$m_2$$ are both median points and $$n$$ is even then the number of points
+to the left of $$m_1$$ is equal to the number of points to the right of
+$$m_2$$, and this is $$\frac{n}{2}$$. Therefore, the cost for all points left
+of $$m_2$$ of placing the alignment point at $$m_2$$ is equal to the cost of
+placing it at $$m_1$$ plus $$\frac{n}{2}$$ times the distance between $$m_1$$
+and $$m_2$$, or:
+
+$$ c_L(m_2) = c_L(m_1) + \frac{n}{2}(m_2-m_1) $$
+
+Similarly we may rewrite $$c_R(m_2)$$ as $$c_R(m_1) - \frac{n}{2}(m_2-m_1)$$
+and thus we get the cost $$c(m_2)$$ of placing the alignment point at $$m_2$$
+as:
 
 $$
 \begin{align}
-c(m_2) & = L(m_2) + R(m_2) \\
-& = L(m_1) + \frac{n}{2}(m_2-m_1) + R(m_1) - \frac{n}{2}(m_2-m_1) \\
-& = L(m_1) + R(m_2)
+c(m_2) & = c_L(m_2) + c_R(m_2) \\
+& = c_L(m_1) + \frac{n}{2}(m_2-m_1) + c_R(m_1) - \frac{n}{2}(m_2-m_1) \\
+& = c_L(m_1) + c_R(m_2)
 \end{align}
 $$
 
-Moreover, any point $$y \in [m_1,m_2]$$ has the same cost as placing the point
-at either median point. Since the number of points to the left of $$m_1$$ is
-equal to the number of points to the right[^1] of $$m_2$$ then any reduction in
-cost we achieve from moving $$y$$ towards $$m_2$$ will be met with an cost as
-we move away from points to the left of (and including) $$m_1$$. Performing the
-same tricks as before, for any $$y \in [m_1,m_2]$$:
+It turns out that placing the alignment point $$y$$ anywhere in the interval
+$$[m_1,m_2]$$ has the same cost as placing it at either median point.
+Performing the same trick as before, for any $$y \in [m_1,m_2]$$:
 
 $$
 \begin{align}
-c(y) & = L(y) + R(y) \\
-& = L(m_1) + \frac{n}{2}(y-m_1) + R(m_1) - \frac{n}{2}(m_2-y) \\
+c(y) & = c_L(y) + c_R(y) \\
+& = c_L(m_1) + \frac{n}{2}(y-m_1) + c_R(m_1) - \frac{n}{2}(m_2-y) \\
 & = c(m_1)
 \end{align}
 $$
 
-It remains to show that $$c(y)$$ is optimal. Suppose we place $$y$$ outside
-$$[m_1,m_2]$$, and without loss of generality (we can follow a symmetric
-argument for the other case) let $$y > m_2$$. 
+It remains to show that $$c(y)$$ is optimal for any $$y \in [m_1,m_2]$$.
+Suppose for the sake of contradiction that $$y$$ is an optimal alignment point
+outside of the interval $$[m_1,m_2]$$ and without loss of generality[^1] assume
+$$y > m_2$$. The cost of aligning at $$y$$ is:
 
 $$
 \begin{align}
-c(y) & = c(m_2)+(1+\frac{n}{2})(y-m_2)-\frac{n}{2}(y-m_2) \\
+c(y) & = c(m_2) + (1 + \frac{n}{2})(y-m_2) - \frac{n}{2}(y-m_2) \\
 & = c(m_2)+(y-m_2) \\
 & > c(m_2)
 \end{align}
 $$
 
 So placing the alignment point outside the interval $$[m_1,m_2]$$ results in a
-strictly larger total cost.
+strictly larger total cost, contradicting our assumption. Thus any point $$y
+\in [m_1,m_2]$$ is optimal. $$\qed$$
 
 The entire code for the first part is therefore:
 
-```lisp
+```
 (flet ((total-cost (position numbers)
          "Sum of absolute differences between POSITION and NUMBERS"
          (loop for n in numbers
@@ -152,6 +158,4 @@ leaderboard. It was an interesting exercise to prove the median points are
 optimal in the first part; now it remains to improve the efficiency of my
 solution for the second part.
 
-[^1]: If we write out the starting positions as a list as opposed to thinking
-  about them on a number line.
-
+[^1]: We can follow symmetric reasoning to prove the claim when $$y < m_1$$.
