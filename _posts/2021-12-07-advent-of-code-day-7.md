@@ -2,7 +2,7 @@
 layout: post
 title: "Advent of Code 2021 -- Day 7: The Treachery of Whales"
 date: 2021-12-07
-lastEdited: 2022-01-19 18:30
+lastEdited: 2022-01-20 12:00
 ---
 
 {% include mathjax.html %}
@@ -49,7 +49,7 @@ the smallest value we currently have stored. The problem with this is that it
 is *inefficient*, and in fact takes exponential time in the size of the input,
 since if numbers are represented by $$b$$ bits then we have to check $$2^b$$
 numbers in the worst case. I will now argue for a better method of computing
-the optimal alignment point $$y^*$$ with the following claim.
+the optimal alignment point $$y^*$$ with the following claim.[^1]
 
 **Claim:** Any point $$y$$ in the interval $$[m_1,m_2]$$, where $$m_1,m_2$$ are
 the median values in the input, is an optimal alignment point.
@@ -98,7 +98,7 @@ $$
 
 It remains to show that $$c(y)$$ is optimal for any $$y \in [m_1,m_2]$$.
 Suppose for the sake of contradiction that $$y$$ is an optimal alignment point
-outside of the interval $$[m_1,m_2]$$ and without loss of generality[^1] assume
+outside of the interval $$[m_1,m_2]$$ and without loss of generality[^2] assume
 $$y > m_2$$. The cost of aligning at $$y$$ is:
 
 $$
@@ -110,8 +110,8 @@ c(y) & = c(m_2) + (1 + \frac{n}{2})(y-m_2) - \frac{n}{2}(y-m_2) \\
 $$
 
 So placing the alignment point outside the interval $$[m_1,m_2]$$ results in a
-strictly larger total cost, contradicting our assumption. Thus any point $$y
-\in [m_1,m_2]$$ is optimal. QED
+strictly larger total cost than placing it at $$m_2$$, contradicting our
+assumption. Thus any point $$y \in [m_1,m_2]$$ is optimal. QED
 
 ```
 (flet ((total-cost (position numbers)
@@ -127,7 +127,7 @@ The entire code for the first part given above. Although the input is small
 enough to not make a practical difference, this solution is much more
 efficient. In the brute force solution we take time $$O(2^b)$$ to calculate
 the optimal alignment point $$y^*$$, since we iterate over all $$2^b$$ numbers
-representable by $$b$$ bits in the worst case[^2] and compute its cost. When
+representable by $$b$$ bits in the worst case[^3] and compute its cost. When
 using the median we instead take time $$O(n \log n)$$, since this is the time
 required to order the list and find the median, followed by a single
 calculation of the total resulting cost.
@@ -165,5 +165,11 @@ leaderboard. It was an interesting exercise to prove the median points are
 optimal in the first part; now it remains to improve the efficiency of my
 solution for the second part.
 
-[^1]: We can follow symmetric reasoning to prove the claim when $$y < m_1$$.
-[^2]: i.e., the starting positions 0 and $$2^b-1$$ appear in the input.
+[^1]: A brief note: normally when the input list has an even number of elements
+  then the (single) median value is the arithmetic mean between elements
+  $$x_\frac{n}{2}$$ and $$x_{1+\frac{n}{2}}$$. In our discussion we simply use
+  the term "median points" to refer to these elements.
+
+[^2]: We can follow symmetric reasoning to prove the claim when $$y < m_1$$.
+
+[^3]: i.e., the starting positions 0 and $$2^b-1$$ appear in the input.

@@ -81,6 +81,7 @@ OS Dev:
 - [Computer Science from the Bottom Up](https://www.bottomupcs.com/)
 - [LISP with GC in 436 bytes](https://justine.lol/sectorlisp2/)
 
+Other:
 - [Vim Tips](https://vimtips.strix.dev/)
 
 ## Tools
@@ -90,6 +91,7 @@ OS Dev:
 
 ## Other
 
+- [City Generator](https://watabou.github.io/city-generator/) and [watabou's itch.io page](https://watabou.itch.io/)
 - [Non-transitive Dice](https://singingbanana.com/dice/article.htm)
 - [How Dr. Seuss would have proved the Halting
   Problem](https://ebiquity.umbc.edu/blogger/2008/01/19/how-dr-suess-would-prove-the-halting-problem-undecidable/)
