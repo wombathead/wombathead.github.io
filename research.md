@@ -14,13 +14,11 @@ My research interests are in:
 - complexity theory
 - algorithms and data structures
 
-## Papers
-
-### Publications
+## Publications
 
 None yet!
 
-### Working Papers
+## Working Papers
 
 - [Non-Obvious Manipulability for Single-Parameter Agents and Bilateral Trade](https://arxiv.org/abs/2202.06660)
   - Thomas Archbold, Bart de Keijzer, Carmine Ventre

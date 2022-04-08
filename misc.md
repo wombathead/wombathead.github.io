@@ -42,6 +42,10 @@ sections:
   Webcomic](https://www.irregularwebcomic.net/)
 - [Coalton](https://coalton-lang.github.io/)
 - [Sebastian Sylvan](https://www.sebastiansylvan.com/)
+- [Stormbirds](https://stormbirds.blog/)
+- [Nicky Case](https://ncase.me/)
+- [Space Kate](http://spacekate.com/)
+- [11011110](https://11011110.github.io/blog/)
 
 ## Short Reads
 
@@ -58,6 +62,7 @@ sections:
   number?](https://www.scottaaronson.com/writings/bignumbers.html)
 - [Principia Discordia](http://www.principiadiscordia.com/book/1.php)
 - [Lessons from my PhD](https://web.eecs.utk.edu/~azh/blog/lessonsfrommyphd.html)
+- [The Chaos](https://ncf.idallen.com/english.html) by Gerard Nolst Trenité
 
 ## Open problems
 
@@ -83,6 +88,7 @@ OS Dev:
 
 Other:
 - [Vim Tips](https://vimtips.strix.dev/)
+- [Algorithm visualisations](https://visualgo.net/en)
 
 ## Tools
 
@@ -91,6 +97,8 @@ Other:
 
 ## Other
 
+- [Angus Oblong](https://www.angusoblong.com/)
+- [Wordle](https://www.nytimes.com/games/wordle/index.html), [Quordle](https://www.quordle.com/#/), and [Passwordle](https://rsk0315.github.io/playground/passwordle.html)
 - [City Generator](https://watabou.github.io/city-generator/) and [watabou's itch.io page](https://watabou.itch.io/)
 - [Non-transitive Dice](https://singingbanana.com/dice/article.htm)
 - [How Dr. Seuss would have proved the Halting
@@ -114,9 +122,11 @@ Other:
 - [Forgotify](https://forgotify.com/player.cfm)
 - [Rainbow Planes](https://booktwo.org/notebook/rainbow-plane-002-kiev/)
 - [PhD 2048](https://ymfa.github.io/phd-2048/)
+- [Brass Eye names](https://www.cookdandbombd.co.uk/forums/index.php?topic=5771.0)
 
 ## To read
 
+- [The Tyger](https://www.poetryfoundation.org/poems/43687/the-tyger)
 - [The Waste Land](https://www.poetryfoundation.org/poems/47311/the-waste-land)
 - [The Road Not Taken](https://www.poetryfoundation.org/poems/44272/the-road-not-taken)
 - [The Bridge Builder](https://www.poetryfoundation.org/poems/52702/the-bridge-builder)

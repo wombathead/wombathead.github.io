@@ -10,3 +10,8 @@ layout: default
 > outside the box that people call innovative.
 
 Paul Graham, _What You Can't Say_ (January 2004)
+
+> It was at that moment that I first realized Elaine had doubts about our
+> relationship. And that, as much as anything else, led to my drinking problem.
+
+Ted Striker, _Airplane!_ (1980)

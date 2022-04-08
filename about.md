@@ -4,7 +4,8 @@ title: About
 navOrder: 2
 ---
 
-I am a second-year Ph.D. student in Computer Science at King's College London,
+I am a second-year Ph.D. student in Computer Science at King's College London
+under the supervision of [Carmine Ventre][carmine] and [Bart de Keizjer][bart]
 where I am part of the [Distributed Artificial Intelligence][DAI] research
 group. My research interests are in algorithmic game theory and mechanism
 design, complexity theory, and other areas of theoretical computer science. I
@@ -16,7 +17,7 @@ markets][prediction-markets] and was supervised by Matthias Englert, and my
 undergraduate dissertation was (trying to make) an educational kernel for the
 Raspberry Pi and was supervised by Adam Chester.
 
-My CV is [here](/assets/thomas_archbold.pdf).
+My CV is [here](/assets/thomas_archbold.pdf) (as of Apr 2022).
 
 I like programming for fun and currently my favourite language is (Common)
 Lisp. In case you haven't heard of them, take a look at [Advent of
@@ -31,6 +32,9 @@ also run, play rugby, and like playing the guitar to a questionable standard.
 	description="On the last day of my summer placement with Imagination
 	Technologies (I'm the one on the right)."
 %}
+
+[carmine]: https://www.kcl.ac.uk/people/carmine-ventre
+[bart]: http://www.pakvla.nl/bart/
 
 [DAI]: https://www.kcl.ac.uk/research/dai
 [epsrc-dtp]: https://epsrc.ukri.org/skills/students/dta/
