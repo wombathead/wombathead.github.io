@@ -10,6 +10,6 @@ and [misc.](misc.html) pages.
 
 <ul>
 {% for post in site.posts %}
-<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+<li>({{ post.date | date: "%b %y" }}) <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>

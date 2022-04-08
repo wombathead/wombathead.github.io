@@ -5,7 +5,7 @@
 	<body>
 		{% include header.html %}
 		<h1>{{ page.title }}</h1>
-		{{ post.date }}
+		{{ page.date | date: "%-d %B %Y" }} (last edited: {{ page.date | date: "%d/%m/%Y %I:%M" }})
 		{{ content }}
 		{% include footer.html %}
 	</body>
