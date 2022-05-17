@@ -38,14 +38,14 @@ sections:
 - [Yin Tat Lee](https://yintat.com/)
 - [Peter Norvig](http://www.norvig.com/)
 - [Matt Ruby](https://mattruby.substack.com/)
-- [David Morgan-Mar's blog](https://www.dangermouse.net/) and [Irregular
-  Webcomic](https://www.irregularwebcomic.net/)
+- [David Morgan-Mar's blog](https://www.dangermouse.net/), [Irregular Webcomic](https://www.irregularwebcomic.net/), his [esoterica](https://www.dangermouse.net/esoteric/)
 - [Coalton](https://coalton-lang.github.io/)
 - [Sebastian Sylvan](https://www.sebastiansylvan.com/)
 - [Stormbirds](https://stormbirds.blog/)
 - [Nicky Case](https://ncase.me/)
 - [Space Kate](http://spacekate.com/)
 - [11011110](https://11011110.github.io/blog/)
+- [Steve Losh](https://stevelosh.com/)
 
 ## Short Reads
 
@@ -66,6 +66,7 @@ sections:
 
 ## Open problems
 
+- [The Open Problems Project](https://topp.openproblem.net/)
 - In [computer science](https://a3nm.net/work/research/questions/)
 - [Open Problem Garden](www.openproblemgarden.org/)
 
@@ -123,6 +124,7 @@ Other:
 - [Rainbow Planes](https://booktwo.org/notebook/rainbow-plane-002-kiev/)
 - [PhD 2048](https://ymfa.github.io/phd-2048/)
 - [Brass Eye names](https://www.cookdandbombd.co.uk/forums/index.php?topic=5771.0)
+- [Silicon Zoo](https://micro.magnet.fsu.edu/creatures/index.html)
 
 ## To read
 
