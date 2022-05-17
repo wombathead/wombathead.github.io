@@ -4,9 +4,7 @@ title: Home
 navOrder: 1
 ---
 
-Hello! This page isn't going to be very interesting until I write some more
-blog posts so in the meantime feel free to check out my [about](about.html)
-and [misc.](misc.html) pages.
+Hello! Look at these things I've written and feel free explore my website.
 
 <ul>
 {% for post in site.posts %}

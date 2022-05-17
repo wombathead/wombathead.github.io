@@ -165,10 +165,9 @@ leaderboard. It was an interesting exercise to prove the median points are
 optimal in the first part; now it remains to improve the efficiency of my
 solution for the second part.
 
-[^1]: A brief note: normally when the input list has an even number of elements
-  then the (single) median value is the arithmetic mean between elements
-  $$x_\frac{n}{2}$$ and $$x_{1+\frac{n}{2}}$$. In our discussion we simply use
-  the term "median points" to refer to these elements.
+## Footnotes
+
+[^1]: A brief note: normally when the input list has an even number of elements then the (single) median value is the arithmetic mean between elements $$x_\frac{n}{2}$$ and $$x_{1+\frac{n}{2}}$$. In our discussion we simply use the term "median points" to refer to these elements.
 
 [^2]: We can follow symmetric reasoning to prove the claim when $$y < m_1$$.
 

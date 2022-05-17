@@ -1,0 +1,8 @@
+ul#navbar li {
+	display: inline;
+}
+
+body {
+	width: 60%;
+	margin: auto;
+}

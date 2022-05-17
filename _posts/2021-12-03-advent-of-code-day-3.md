@@ -106,4 +106,6 @@ feels powerful when it works. I already spent quite a bit more time on today's
 puzzles than the previous two days, so I'm preparing for the steady increase in
 difficulty and inevitable loss of more time as the month progresses.
 
+## Footnotes
+
 [^1]: I think this is probably because of the way numbers are represented, e.g. two's complement.

@@ -1,7 +1,7 @@
 <div id="header">
 	{{ site.title }}
 	{% assign sortedPages = site.pages | sort:"navOrder" %}
-	<ul>
+	<ul id="navbar">
 		{% for page in sortedPages %}
 		{% if page.navOrder %}
 		<li><a href="{{ page.url }}">{{ page.title }}</a></li>

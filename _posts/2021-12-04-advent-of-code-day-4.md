@@ -78,6 +78,8 @@ just be about automating the process to solve it, and that was what Day 4 felt
 like. I feel the code could be cleaned up and perhaps made more concise, but
 I'll leave that until later now.
 
+## Footnotes
+
 [^1]: Originally I planned to just track whether a number had been called by whether or not it was positive, but this would have run into problems when calculating a card's score later on.
 
 [^2]: Domain Specific Language

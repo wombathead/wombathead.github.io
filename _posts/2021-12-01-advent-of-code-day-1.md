@@ -61,4 +61,6 @@ what I've written, not least because it looks clean, and I'm looking forward to
 spending (and inevitably, wasting) more time on these puzzles over the rest of
 the month -- it's not like I have an important viva to be working on...
 
+## Footnotes
+
 [^1]: That opening, while catchy, took far too much effort.
