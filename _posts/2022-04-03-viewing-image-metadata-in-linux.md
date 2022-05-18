@@ -2,7 +2,6 @@
 layout: post
 title: Viewing image metadata in Linux
 date: 2022-04-03
-lastEdited: 2022-04-03 12:00
 ---
 
 Recently I was writing up my [camping trip to Dartmoor]({% post_url

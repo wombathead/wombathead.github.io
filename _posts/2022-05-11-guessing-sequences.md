@@ -2,7 +2,7 @@
 layout: post
 title: Guessing Sequences
 date: 2022-05-11
-lastEdited: 2022-05-17 10:00
+lastEdited: 2022-05-18 11:00
 ---
 
 {% include mathjax.html %}
@@ -24,9 +24,11 @@ sequence $$(u_1,u_2,\ldots,u_k)$$. We will guess the next term of the sequence
 by constructing a function $$g_k$$ based on the first $$k$$ observations of the
 sequence. Since there is an infinite number of polynomials that could continue
 the sequence, we will restrict our attention to only the "simplest" -- our
-function $$g_k$$ must only agree with the $$k$$ samples we are given, using
-only the $$k$$ samples given. Specifically we want to construct a function
-$$g_k : \mathbb{N} \to \mathbb{R}$$ such that $$g_k(n) = u_n$$.
+function $$g_k$$ must only agree with the $$k$$ samples we are given, using our
+knowledge of the samples. Specifically we want to construct a function $$g_k :
+\mathbb{N} \to \mathbb{R}$$ such that $$g_k(n) = u_n$$ for all $$n \in [k] = \{
+1,\ldots,k \}$$. Of course, if $$g_k$$ agrees with $$u_n$$ for any $$n > k$$
+then this is a bonus.
 
 To explain our method of coming up with the guess function $$g_k$$ we will try
 to generate the next term in the sequence at the top of the page, $$(u_n) =
@@ -168,7 +170,7 @@ x = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-and now we can read of the solution $$x$$ to the equation $$Ax = b$$ as simply
+and now we can read off the solution $$x$$ to the equation $$Ax = b$$ as simply
 the rightmost column in the resulting matrix above. Thus $$x = \begin{bmatrix}
 8 & -11 & 7 \end{bmatrix}$$ or in other words, $$x_2 = 8, x_1 = -11, x_0 = 7$$,
 so we have constructed the guess function $$g_3(n) = 8n^2 - 11n + 7$$. We can

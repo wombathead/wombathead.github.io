@@ -6,7 +6,10 @@
 	<body>
 		{% include header.html %}
 		<h1>{{ page.title }}</h1>
-		{{ page.date | date: "%-d %B %Y" }} (last edited: {{ page.lastEdited | date: "%d/%m/%Y %H:%M" }})
+		{{ page.date | date: "%-d %B %Y" }}
+		{% if page.lastEdited %}
+		<span style="color: grey;">(edited: {{ page.lastEdited | date: "%d/%m/%Y" }})</span>
+		{% endif %}
 		{{ content }}
 		{% include footer.html %}
 	</body>

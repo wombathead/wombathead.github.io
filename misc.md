@@ -89,6 +89,7 @@ OS Dev:
 
 Other:
 - [Vim Tips](https://vimtips.strix.dev/)
+- [Lisp tips](https://lisptips.com/)
 - [Algorithm visualisations](https://visualgo.net/en)
 
 ## Tools
