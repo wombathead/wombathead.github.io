@@ -63,6 +63,7 @@ sections:
 - [Principia Discordia](http://www.principiadiscordia.com/book/1.php)
 - [Lessons from my PhD](https://web.eecs.utk.edu/~azh/blog/lessonsfrommyphd.html)
 - [The Chaos](https://ncf.idallen.com/english.html) by Gerard Nolst Trenité
+- [My Favorite Liar](https://www.overcomingbias.com/2008/02/my-favorite-lia.html)
 
 ## Open problems
 

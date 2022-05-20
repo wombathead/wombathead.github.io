@@ -3,6 +3,7 @@ ul#navbar li {
 }
 
 body {
+	text-align: left;
 	width: 60%;
 	margin: auto;
 }

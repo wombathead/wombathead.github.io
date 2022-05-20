@@ -5,7 +5,7 @@ navOrder: 2
 ---
 
 I am a second-year Ph.D. student in Computer Science at King's College London
-under the supervision of [Carmine Ventre][carmine] and [Bart de Keizjer][bart]
+under the supervision of [Carmine Ventre][carmine] and [Bart de Keijzer][bart]
 where I am part of the [Distributed Artificial Intelligence][DAI] research
 group. My research interests are in algorithmic game theory and mechanism
 design, complexity theory, and other areas of theoretical computer science. I
