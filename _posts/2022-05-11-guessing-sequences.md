@@ -2,7 +2,7 @@
 layout: post
 title: Guessing Sequences
 date: 2022-05-11
-lastEdited: 2022-05-18 11:00
+lastEdited: 2022-05-22 21:00
 ---
 
 {% include mathjax.html %}
@@ -80,20 +80,20 @@ Substituting in the appropriate values for $$n$$ we get the following
 constraints:
 
 $$
-\begin{gather}
-u_1 = x_1 + x_0 \\
-u_2 = 2x_1 + x_0
-\end{gather}
+\begin{align*}
+u_1 & = x_0 + x_1 \\
+u_2 & = x_0 + 2 x_1
+\end{align*}
 $$
 
 There are two unknowns are two equations meaning we can solve them to find the
 right values for $$x_1$$ and $$x_0$$. In the example above we get:
 
 $$
-\begin{gather}
-4 = x_1 + x_0 \\
-17 = 2 x_1 + x_0
-\end{gather}
+\begin{align*}
+4  & = x_0 + x_1 \\
+17 & = x_0 + 2 x_1
+\end{align*}
 $$
 
 and solving these equations gives us $$x_1 = 13$$ and $$x_0 = -9$$. Therefore
@@ -101,11 +101,11 @@ $$g_2(n) = 13n - 9$$, which thankfully agrees with what we worked out earlier.
 Now let $$k=3$$ and we are left with the following system of three equations:
 
 $$
-\begin{gather}
-4 = x_2 + x_1 + x_0 \\
-17 = 4 x_2 + 2 x_1 + x_0 \\
-46 = 9 x_2 + 3 x_1 + x_0
-\end{gather}
+\begin{align*}
+4  & = x_0 + x_1 + x_2 \\
+17 & = x_0 + 2 x_1 + 4 x_2 \\
+46 & = x_0 + 3 x_1 + 9 x_2
+\end{align*}
 $$
 
 Now, we could solve this like we did for the two-equation case but I find it
@@ -122,14 +122,14 @@ $$
 A =
 \begin{bmatrix}
 1 & 1 & 1 \\
-4 & 2 & 1 \\
-9 & 3 & 1 
+1 & 2 & 4 \\
+1 & 3 & 9
 \end{bmatrix} \quad
 x = 
 \begin{bmatrix}
-x_2 \\
+x_0 \\
 x_1 \\
-x_0
+x_2
 \end{bmatrix} \quad
 b = 
 \begin{bmatrix}
@@ -149,39 +149,39 @@ create the augmented matrix that has the vector $$b$$ spliced into the
 rightmost column, like so:
 
 $$
-\begin{bmatrix}
+\left[ \begin{array}{ccc|c}
 1 & 1 & 1 & 4 \\
-4 & 2 & 1 & 17 \\
-9 & 3 & 1 & 46 
-\end{bmatrix}
+1 & 2 & 4 & 17 \\
+1 & 3 & 9 & 46 
+\end{array} \right]
 $$
 
-After performing the steps of the algorithm  we get the augmented matrix
+After performing the steps of the algorithm we get the augmented matrix
 in reduced row echelon form as:
 
 $$
-\begin{bmatrix}
-1 & 0 & 0 & 8 \\
+\left[ \begin{array}{ccc|c}
+1 & 0 & 0 & 7 \\
 0 & 1 & 0 & -11 \\
-0 & 0 & 1 & 7 
-\end{bmatrix} \implies
+0 & 0 & 1 & 8 
+\end{array} \right] \implies
 x = \begin{bmatrix}
-8 \\ -11 \\ 7
+7 \\ -11 \\ 8
 \end{bmatrix}
 $$
 
 and now we can read off the solution $$x$$ to the equation $$Ax = b$$ as simply
 the rightmost column in the resulting matrix above. Thus $$x = \begin{bmatrix}
-8 & -11 & 7 \end{bmatrix}$$ or in other words, $$x_2 = 8, x_1 = -11, x_0 = 7$$,
+7 & -11 & 8 \end{bmatrix}$$ or in other words, $$x_0 = 7, x_1 = -11, x_2 = 8$$,
 so we have constructed the guess function $$g_3(n) = 8n^2 - 11n + 7$$. We can
 then verify that:
 
 $$
-\begin{gather}
-g_3(1) = 4 = u_1 \\
-g_3(2) = 17 = u_2 \\
-g_3(3) = 46 = u_3
-\end{gather}
+\begin{align*}
+g_3(1) = 4  & = u_1 \\
+g_3(2) = 17 & = u_2 \\
+g_3(3) = 46 & = u_3
+\end{align*}
 $$
 
 The matrix $$A$$ of coefficients for the system of equations we had above was
@@ -190,16 +190,16 @@ function given access to $$k=4$$ samples then we would need to use another
 system of equations and hence another matrix $$A$$. However it is simple to
 generate this matrix if we know how many samples we get. Note that row $$i$$ in
 the matrix $$A$$ represents the $$i$$th term of the sequence, while column
-$$j$$ represents the coefficients of the variable $$x_{m-j}$$.[^2] Therefore
+$$j$$ represents the coefficients of the variable $$x_{j-1}$$.[^2] Therefore
 for some value of $$k$$ we will have a $$k \times k$$ matrix representing the
 coefficients since we have $$k$$ terms and we need at most $$k$$ variables to
 approximate it. If we look at the expression for $$g_k(n)$$ again we can see
-that the coefficient for the $$(m-j)$$th variable in the $$i$$th term is
-$$i^{(m-j)}$$ for $$i,j \in [k]$$. In other words, given $$k$$ samples of the
-sequence we construct the matrix of coefficients $$A \in \mathbb{R}^{k \times
-k}$$ as:
+that the coefficient for the $$j$$th variable in the $$i$$th term is $$i^{j}$$
+for $$i \in [k]$$ and $$j \in \{ 0,\ldots,k-1 \}$$. In other words, given
+$$k$$ samples of the sequence we construct the matrix of coefficients $$A \in
+\mathbb{R}^{k \times k}$$ as:
 
-$$ a_{ij} = i^{(m-j)} \quad \text{for $i,j \in [k]$} $$
+$$ a_{ij} = i^{(j-1)} \quad \text{for $i,j \in [k]$} $$
 
 Using this relationship to generate the matrix $$A$$ for any value of $$k$$ we
 therefore have all we need to generate the guess $$g_k$$ for any sequence given
@@ -222,20 +222,20 @@ values of the variables $$x$$ in both cases are:
 
 $$
 \begin{bmatrix}
-x_5 \\
-x_4 \\
-x_3 \\
-x_2 \\
+x_0 \\
 x_1 \\
-x_0
+x_2 \\
+x_3 \\
+x_4 \\
+x_5
 \end{bmatrix} =
 \begin{bmatrix}
-0 \\
-0 \\
 1 \\
-2 \\
 0 \\
-1
+2 \\
+1 \\
+0 \\
+0
 \end{bmatrix} \implies g_k(n) = n^3 + 2 n^2 + 1
 $$
 
@@ -255,5 +255,7 @@ for large values of $$n$$. Still, a fun problem that was fun to code too.
 [^1]: We first look at how we could have arrived at $$u_2$$ from $$u_1$$ and see that $$17 = 4 + 13$$, so $$u_2 = u_1 + 13$$. Then for subsequent terms we assume that $$u_n = u_{n-1} + 13$$, which we can rewrite as $$u_n = u_{n-1} + 13 = u_{n-2} + 2(13) = \ldots = u_0 + 13n$$. How do we know what $$u_0$$ is?  Simple: if $$u_n = u_{n-1} + 13$$ then $$u_1 = u_0 + 13$$, so $$u_0 = 4 - 13 = -9$$.  Thus we have $$u_n = 13n - 9$$.
 
 [^2]: The index here, $$x_{m-j}$$, is a bit weird because of how I've decided to order the terms when writing the polynomial $$g_k(n)$$ -- since we start with the higher order terms then it is "reversed".
+
+[^2]: The index here, $$x_{j-1}$$, is a bit weird because of how I've numbered the various parts of this problem: terms of the sequence $$(u_n)$$ start from $$u_1$$ but the variables we play with are $$x_0,x_1,\ldots$$ so there is a mismatch in that the sequence indices start from 1 while the variable indices start from 0.
 
 [gaussian-elimination]: https://en.wikipedia.org/wiki/Gaussian_elimination
