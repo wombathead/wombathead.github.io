@@ -59,3 +59,10 @@ title: Valleys of Sunrise
 email: tomjarchbold [at] gmail [dot] com
 description: >-
   No views expressed herein are my own.
+
+collections:
+  # news:
+  #   output: true
+  posts:
+    output: true
+    permalink: /:collection/:title

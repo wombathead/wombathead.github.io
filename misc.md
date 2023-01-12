@@ -6,9 +6,7 @@ navOrder: 4
 
 # Miscellanious content
 
-Here are some links. They are mostly for me to keep track of but I can't stop
-you exploring them, too. This list is getting quite long so here are links to
-sections:
+Here are some links. They are mostly for me to keep track of but I can't stop you exploring them, too. This list is getting quite long so here are links to sections:
 - [blogs](#blogs)
 - [short reads](#short-reads)
 - [open research problems](#open-problems)
@@ -22,6 +20,7 @@ sections:
 - [Scott Aaronson's blog](https://www.scottaaronson.com/blog/)
 - [Lance Fortnow and Bill Gasarch's blog](https://blog.computationalcomplexity.org/)
 - [Richard Lipton's blog](https://rjlipton.wpcomstaging.com/)
+- [Oded Goldreich's](https://www.wisdom.weizmann.ac.il/~oded/) (in particular, his [essays](https://www.wisdom.weizmann.ac.il/~oded/essays.html)
 - [Paul Graham's blog](http://www.paulgraham.com/)
 - [Timothy Gowers' blog](https://gowers.wordpress.com/)
 - [Terence Tao's blog](https://terrytao.wordpress.com/)
@@ -44,11 +43,16 @@ sections:
 - [Stormbirds](https://stormbirds.blog/)
 - [Nicky Case](https://ncase.me/)
 - [Space Kate](http://spacekate.com/)
-- [11011110](https://11011110.github.io/blog/)
+- [David Eppstein (11011110)](https://11011110.github.io/blog/)
 - [Steve Losh](https://stevelosh.com/)
+- [Milk and Cigarettes](https://milkandcigarettes.com/)
+- [Mike Bostock](https://bost.ocks.org/mike/) (especially [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/)
+- [Brian Bilston](https://brianbilston.com/)
 
 ## Short Reads
 
+- [The Four Dirty C-Words of the Internet](https://pauljun.me/the-four-dirty-c-words-of-the-internet)
+- [A Case for Bad Coffee](https://www.seriouseats.com/the-case-for-bad-coffee)
 - [A Sound of Thunder](http://www.astro.sunysb.edu/fwalter/AST389/ASoundofThunder.pdf)
 - [The Ph.D. Octopus](https://www.uky.edu/~eushe2/Pajares/octopus.html)
 - [Perl, the first postmodern computer language](http://www.wall.org/~larry/pm.html)
@@ -64,6 +68,11 @@ sections:
 - [Lessons from my PhD](https://web.eecs.utk.edu/~azh/blog/lessonsfrommyphd.html)
 - [The Chaos](https://ncf.idallen.com/english.html) by Gerard Nolst Trenité
 - [My Favorite Liar](https://www.overcomingbias.com/2008/02/my-favorite-lia.html)
+- [Assembly Nights](https://ratfactor.com/assembly-nights)
+- [I'm an addict](https://tarunreddy.bearblog.dev/addict/)
+- [Cocktail party ideas](https://danluu.com/cocktail-ideas/)
+- [Why Are Mathematicians So Bad at Arithmetic?](https://mathwithbaddrawings.com/2017/01/11/why-are-mathematicians-so-bad-at-arithmetic/)
+- [How to have your abstract rejected](https://dl.acm.org/doi/10.1145/1810926.1810928)
 
 ## Open problems
 
@@ -87,6 +96,7 @@ OS Dev:
 - [OSDev wiki](https://wiki.osdev.org/)
 - [Computer Science from the Bottom Up](https://www.bottomupcs.com/)
 - [LISP with GC in 436 bytes](https://justine.lol/sectorlisp2/)
+- [NASM tutorial](https://asmtutor.com/)
 
 Other:
 - [Vim Tips](https://vimtips.strix.dev/)
@@ -95,11 +105,15 @@ Other:
 
 ## Tools
 
+- Write without distractions at [Enso](https://write.sonnet.io/)
 - Two nice diagram tools, [quiver](https://q.uiver.app/) and
   [tikzcd](https://tikzcd.yichuanshen.de/)
-
+      
 ## Other
 
+- [Alaska Projects](https://omegaprototypes.com/alaska-projects/)
+- [Apollo in real time](https://apolloinrealtime.org/)
+- [Back to Space](https://soi-disant.srht.site/entries/back-to-space.html)
 - [Angus Oblong](https://www.angusoblong.com/)
 - [Wordle](https://www.nytimes.com/games/wordle/index.html), [Quordle](https://www.quordle.com/#/), and [Passwordle](https://rsk0315.github.io/playground/passwordle.html)
 - [City Generator](https://watabou.github.io/city-generator/) and [watabou's itch.io page](https://watabou.itch.io/)
@@ -127,6 +141,15 @@ Other:
 - [PhD 2048](https://ymfa.github.io/phd-2048/)
 - [Brass Eye names](https://www.cookdandbombd.co.uk/forums/index.php?topic=5771.0)
 - [Silicon Zoo](https://micro.magnet.fsu.edu/creatures/index.html)
+- [Mechanical watch visualisation](https://ciechanow.ski/mechanical-watch/)
+- [Navarin of Lamb pritanièr](https://www.bbc.co.uk/food/recipes/navarin_of_lamb_58709)
+- [CRAPL: an academic strength open source license](https://matt.might.net/articles/crapl/)
+- [Scott Aaronson's intuitive explanation of Shor's Algorithm](https://scottaaronson.blog/?p=208)
+- [Fold'NFly](https://www.foldnfly.com)
+- [Some Advice Gathered from People Smarter than Me](https://sashachapin.substack.com/p/some-advice-gathered-from-people)
+- [Wiby Surprise Me](https://wiby.me/surprise)
+- [Marginalia](https://search.marginalia.nu/explore/random)
+- [Don't Make Fun of Renowned Dan Brown](https://onehundredpages.wordpress.com/2013/06/12/dont-make-fun-of-renowned-dan-brown/)
 
 ## To read
 
@@ -159,3 +182,4 @@ Other:
 - [Maths quotes](https://www.math.ucla.edu/%7Emason/wisdom/predrag.txt)
 - [The Fibonacci Network](https://blog.jordan.matelsky.com/fib-graph/)
 - [Why I'm Sceptical of Universal Basic Income](https://dynomight.net/2020/12/03/why-im-skeptical-of-UBI/)
+- [Gentle Seduction](http://www.skyhunter.com/marcs/GentleSeduction.html)

@@ -5,7 +5,7 @@ date: 2022-04-03
 ---
 
 Recently I was writing up my [camping trip to Dartmoor]({% post_url
-2021-09-06-dartmoor %}) and I wanted to transfer some photos from my phone
+2021-09-06-tor-torture %}) and I wanted to transfer some photos from my phone
 to my computer. A quick note on that first: since my phone is Android I have to
 use [Media Transfer
 Protocol](https://wiki.archlinux.org/title/Media_Transfer_Protocol) to transfer

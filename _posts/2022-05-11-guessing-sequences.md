@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Guessing Sequences
+title: Guessing Sequences, or How to Overfit
 date: 2022-05-11
 lastEdited: 2022-05-22 21:00
 ---
@@ -253,8 +253,6 @@ for large values of $$n$$. Still, a fun problem that was fun to code too.
 ## Footnotes
 
 [^1]: We first look at how we could have arrived at $$u_2$$ from $$u_1$$ and see that $$17 = 4 + 13$$, so $$u_2 = u_1 + 13$$. Then for subsequent terms we assume that $$u_n = u_{n-1} + 13$$, which we can rewrite as $$u_n = u_{n-1} + 13 = u_{n-2} + 2(13) = \ldots = u_0 + 13n$$. How do we know what $$u_0$$ is?  Simple: if $$u_n = u_{n-1} + 13$$ then $$u_1 = u_0 + 13$$, so $$u_0 = 4 - 13 = -9$$.  Thus we have $$u_n = 13n - 9$$.
-
-[^2]: The index here, $$x_{m-j}$$, is a bit weird because of how I've decided to order the terms when writing the polynomial $$g_k(n)$$ -- since we start with the higher order terms then it is "reversed".
 
 [^2]: The index here, $$x_{j-1}$$, is a bit weird because of how I've numbered the various parts of this problem: terms of the sequence $$(u_n)$$ start from $$u_1$$ but the variables we play with are $$x_0,x_1,\ldots$$ so there is a mismatch in that the sequence indices start from 1 while the variable indices start from 0.
 

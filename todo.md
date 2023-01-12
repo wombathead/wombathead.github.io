@@ -1,5 +1,6 @@
 # Posts to write
 
+- [ ] Writeups:
+  - [ ] SAGT 2022
+  - [ ] INFORMS 2022
 - [ ] Add photo slideshow to Dartmoor writeup
-- [ ] Tim Peake writeup
-- [ ] Advent of Code writeup

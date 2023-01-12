@@ -113,7 +113,7 @@ So placing the alignment point outside the interval $$[m_1,m_2]$$ results in a
 strictly larger total cost than placing it at $$m_2$$, contradicting our
 assumption. Thus any point $$y \in [m_1,m_2]$$ is optimal. QED
 
-```
+```common-lisp
 (flet ((total-cost (position numbers)
          "Sum of absolute differences between POSITION and NUMBERS"
          (loop for n in numbers
@@ -138,16 +138,14 @@ away from $$y$$, 1+2 if the crab was 2 away from $$y$$, 1+2+3 if it was 3 away
 from $$y$$, and so on. In other words, with $$d=|x_i-y|$$, when placing the
 alignment point at $$y$$ each crab $$i$$ now incurs the cost:
 
-$$
-c_i(x_i,y) = \sum_{k=1}^d k = \frac{d(d+1)}{2}
-$$
+$$ c_i(x_i,y) = \sum_{k=1}^d k = \frac{d(d+1)}{2} $$
 
 I currently don't have a better solution than the brute force one -- that is,
 try all possible positions between the minimum and maximum starting position
 and return the one that results in the smallest total cost. The code
 implementing this is given below:
 
-```lisp
+```common-lisp
 (flet ((total-cost (position numbers)
          (loop for n in numbers
                for difference = (abs (- position n))
