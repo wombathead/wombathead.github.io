@@ -20,7 +20,7 @@ Here are some links. They are mostly for me to keep track of but I can't stop yo
 - [Scott Aaronson's blog](https://www.scottaaronson.com/blog/)
 - [Lance Fortnow and Bill Gasarch's blog](https://blog.computationalcomplexity.org/)
 - [Richard Lipton's blog](https://rjlipton.wpcomstaging.com/)
-- [Oded Goldreich's](https://www.wisdom.weizmann.ac.il/~oded/) (in particular, his [essays](https://www.wisdom.weizmann.ac.il/~oded/essays.html)
+- [Oded Goldreich's](https://www.wisdom.weizmann.ac.il/~oded/) (in particular, his [essays](https://www.wisdom.weizmann.ac.il/~oded/essays.html))
 - [Paul Graham's blog](http://www.paulgraham.com/)
 - [Timothy Gowers' blog](https://gowers.wordpress.com/)
 - [Terence Tao's blog](https://terrytao.wordpress.com/)
@@ -153,10 +153,11 @@ Other:
 
 ## To read
 
-- [The Tyger](https://www.poetryfoundation.org/poems/43687/the-tyger)
-- [The Waste Land](https://www.poetryfoundation.org/poems/47311/the-waste-land)
-- [The Road Not Taken](https://www.poetryfoundation.org/poems/44272/the-road-not-taken)
-- [The Bridge Builder](https://www.poetryfoundation.org/poems/52702/the-bridge-builder)
+- Poetry:
+	- [The Tyger](https://www.poetryfoundation.org/poems/43687/the-tyger)
+  	- [The Waste Land](https://www.poetryfoundation.org/poems/47311/the-waste-land)
+  	- [The Road Not Taken](https://www.poetryfoundation.org/poems/44272/the-road-not-taken)
+  	- [The Bridge Builder](https://www.poetryfoundation.org/poems/52702/the-bridge-builder)
 - [Ars Longa, Vita Brevis](https://slatestarcodex.com/2017/11/09/ars-longa-vita-brevis/)
 - [Kerouac Ginsberg letters](https://granta.com/kerouac-ginsberg-the-letters/)
 - [A Brief Exposé of P-adics](https://tomrocksmaths.com/2021/07/02/a-brief-expose-of-p-adics/)
