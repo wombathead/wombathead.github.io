@@ -40,7 +40,8 @@ I help to organise the fortnightly seminar for the DAI research group.
 We don't have much of an online presence as it stands so I will make a note of past talks here.
 If you'd like to present a talk on your work at the seminar please get in touch!
 
-- 07/03/2023: Micah Carroll (UC Berkeley), __User Manipulation Incentives in Recommender Systems_
+- 21/03/2023: Buhong Liu (King's and University of Glasgow), _Agent-Based Modelling in Finance_
+- 07/03/2023: Micah Carroll (UC Berkeley), _User Manipulation Incentives in Recommender Systems_
 - 21/02/2023: Kristin Blesch (University of Bremen), _Conditional Feature Importance for Mixed Data_
 - 07/02/2023: Elfia Bezou-Vrakatseli (King's), _Debating Ethics: Using Natural Language Datasets to Support Human and AI Debate_
 - 24/01/2023: Xingzhou Lou (King's), _PECAN: Leveraging Policy Ensemble for Context-Aware Zero-Shot Human-AI Coordination_
