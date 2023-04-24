@@ -14,6 +14,9 @@ My research interests are in algorithmic game theory and mechanism design, bound
 
 ## Publications
 
+- *Non-Obvious Manipulability in Extensive-Form Mechanisms: the Revelation Principle for Single-Parameter Agents*
+	- Thomas Archbold, Bart de Keijzer, Carmine Ventre
+	- IJCAI 2023
 - *Non-Obvious Manipulability for Single-Parameter Agents and Bilateral Trade*
 	- Thomas Archbold, Bart de Keijzer, Carmine Ventre
 	- [AAMAS 2023](https://aamas2023.soton.ac.uk/program/accepted-papers/#main-track-full-papers), [arxiv](https://arxiv.org/abs/2202.06660)
@@ -40,6 +43,7 @@ I help to organise the fortnightly seminar for the DAI research group.
 We don't have much of an online presence as it stands so I will make a note of past talks here.
 If you'd like to present a talk on your work at the seminar please get in touch!
 
+- 04/04/2023: David Mguni (Huawei), _Towards the Goal of Optimally Performing Intelligent Multi-Agent Systems_
 - 21/03/2023: Buhong Liu (King's and University of Glasgow), _Agent-Based Modelling in Finance_
 - 07/03/2023: Micah Carroll (UC Berkeley), _User Manipulation Incentives in Recommender Systems_
 - 21/02/2023: Kristin Blesch (University of Bremen), _Conditional Feature Importance for Mixed Data_

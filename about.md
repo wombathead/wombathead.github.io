@@ -8,7 +8,7 @@ I am a third-year Ph.D. student in Computer Science at King's College London whe
 
 Prior to King's I did an undergraduate and master's degree in Computer Science at the University of Warwick. My master's thesis was on decentralised [prediction markets][prediction-markets] and was supervised by Matthias Englert, and my undergraduate dissertation was (trying to make) an educational kernel for the Raspberry Pi and was supervised by Adam Chester.
 
-My CV is [here](/assets/thomas_archbold.pdf) (as of Apr 2022).
+My CV is [here](/assets/thomas-archbold.pdf) (as of Apr 2023).
 
 I like programming for fun and currently my favourite language is (Common) Lisp. In case you haven't heard of them, take a look at [Advent of Code][advent-of-code] and [Project Euler][project-euler]. You can see some of my attempts at these and some of my other projects on my [Github][my-github]. I have recently got into (film) photography and like to play the guitar (to a questionable standard).
 
