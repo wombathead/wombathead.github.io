@@ -23,7 +23,8 @@ My research interests are in algorithmic game theory and mechanism design, bound
 
 ## Working Papers
 
-- Some!
+- Willy Wonka Mechanisms
+  - Thomas Archbold, Bart de Keijzer, Carmine Ventre
 
 ## Teaching
 
@@ -43,6 +44,8 @@ I help to organise the fortnightly seminar for the DAI research group.
 We don't have much of an online presence as it stands so I will make a note of past talks here.
 If you'd like to present a talk on your work at the seminar please get in touch!
 
+- 16/05/2023: Vangelis Markakis (AUEB), _Winner Determination and Strategic Control in Conditional Approval Voting_
+- 02/05/2023: David C. Parkes (Harvard), _Credible Decentralized Exchange Design via Verifiable Sequencing Rules_
 - 04/04/2023: David Mguni (Huawei), _Towards the Goal of Optimally Performing Intelligent Multi-Agent Systems_
 - 21/03/2023: Buhong Liu (King's and University of Glasgow), _Agent-Based Modelling in Finance_
 - 07/03/2023: Micah Carroll (UC Berkeley), _User Manipulation Incentives in Recommender Systems_
