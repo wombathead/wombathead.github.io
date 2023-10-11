@@ -10,16 +10,16 @@ navOrder: 3
 
 My research interests are in algorithmic game theory and mechanism design, bounded rationality, and computational complexity.
 
-[DBLP](https://dblp.org/pid/313/9274)
+| [DBLP](https://dblp.org/pid/313/9274) | [Google Scholar](https://scholar.google.com/citations?user=JPEeftgAAAAJ&hl=en) | [ORCiD](https://orcid.org/0000-0002-8007-1655) |
 
 ## Publications
 
 - *Non-Obvious Manipulability in Extensive-Form Mechanisms: the Revelation Principle for Single-Parameter Agents*
 	- Thomas Archbold, Bart de Keijzer, Carmine Ventre
-	- IJCAI 2023
+	- [IJCAI 2023](https://www.ijcai.org/proceedings/2023/278)
 - *Non-Obvious Manipulability for Single-Parameter Agents and Bilateral Trade*
 	- Thomas Archbold, Bart de Keijzer, Carmine Ventre
-	- [AAMAS 2023](https://aamas2023.soton.ac.uk/program/accepted-papers/#main-track-full-papers), [arxiv](https://arxiv.org/abs/2202.06660)
+	- [AAMAS 2023](https://dl.acm.org/doi/10.5555/3545946.3598884), [arxiv](https://arxiv.org/abs/2202.06660)
 
 ## Working Papers
 
@@ -28,6 +28,13 @@ My research interests are in algorithmic game theory and mechanism design, bound
 
 ## Teaching
 
+This year I am helping to teach:
+- 4CCE1MAP Mathematics and Programming for Engineers
+- 6CCM359A Numerical and Computational with Python
+- 6CCS3AIN Artificial Intelligence Reasoning and Decision Making
+- 6CCS3OME Optimization Methods
+
+Previously I have taught:
 - 6CCS3AIN Artificial Intelligence Reasoning and Decision Making (2022/23)
 	- sequential decision making, Markov Decision Processes, etc.
 - 6CCS3OME Optimization Methods (2020/21, 2021/22, 2022/23)
