@@ -16,7 +16,7 @@ My research interests are in algorithmic game theory and mechanism design, bound
 
 - *Non-Obvious Manipulability in Extensive-Form Mechanisms: the Revelation Principle for Single-Parameter Agents*
 	- Thomas Archbold, Bart de Keijzer, Carmine Ventre
-	- [IJCAI 2023](https://www.ijcai.org/proceedings/2023/278)
+	- [IJCAI 2023](https://doi.org/10.24963/ijcai.2023/278)
 - *Non-Obvious Manipulability for Single-Parameter Agents and Bilateral Trade*
 	- Thomas Archbold, Bart de Keijzer, Carmine Ventre
 	- [AAMAS 2023](https://dl.acm.org/doi/10.5555/3545946.3598884), [arxiv](https://arxiv.org/abs/2202.06660)
