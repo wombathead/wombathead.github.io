@@ -55,10 +55,10 @@ exclude:
   - vendor/ruby/
   - todo.md
 
-title: Valleys of Sunrise
+title: The Palace Flophouse
 email: tomjarchbold [at] gmail [dot] com
 description: >-
-  No views expressed herein are my own.
+  No views expressed are my own.
 
 collections:
   # news:

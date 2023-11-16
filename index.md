@@ -4,7 +4,9 @@ title: Home
 navOrder: 1
 ---
 
-Hello! Look at these things I've written and feel free explore my website.
+Hello!
+This is my website.
+Maybe you will find the things below interesting or useful.
 
 <ul>
 {% for post in site.posts %}
