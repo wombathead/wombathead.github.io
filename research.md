@@ -14,6 +14,9 @@ My research interests are in algorithmic game theory and mechanism design, bound
 
 ## Publications
 
+- *Willy Wonka Mechanisms*
+    - Thomas Archbold, Bart de Keijzer, Carmine Ventre
+	- [AAMAS 2024](https://www.aamas2024-conference.auckland.ac.nz/)
 - *Non-Obvious Manipulability in Extensive-Form Mechanisms: the Revelation Principle for Single-Parameter Agents*
 	- Thomas Archbold, Bart de Keijzer, Carmine Ventre
 	- [IJCAI 2023](https://doi.org/10.24963/ijcai.2023/278)
@@ -23,8 +26,7 @@ My research interests are in algorithmic game theory and mechanism design, bound
 
 ## Working Papers
 
-- Willy Wonka Mechanisms
-  - Thomas Archbold, Bart de Keijzer, Carmine Ventre
+Some!
 
 ## Teaching
 
