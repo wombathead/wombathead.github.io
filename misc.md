@@ -111,6 +111,10 @@ Other:
       
 ## Other
 
+- [Reality has a surprising amount of detail](http://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail)
+- [4th Grade Math Puzzle](https://groups.google.com/g/sci.math/c/QdfUFbqPWLM/m/w_tAK1XPd3YJ?pli=1)
+- [Inverse of a circle](https://mattferraro.dev/posts/inverse-of-a-circle)
+- [A high-dimensional sphere spilling out of a high-dimensional cube despite exponentially many constraints](https://stanislavfort.com/blog/sphere-spilling-out/)
 - [Gideon and Bartholomew](https://ryanharby.com/gideon-and-bartholomew)
 - [Shoshikantetsu](https://asnewman.github.io/shoshikantetsu)
 - [Moon Lander](https://ehmorris.com/lander/)

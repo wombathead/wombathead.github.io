@@ -6,11 +6,13 @@ navOrder: 3
 
 {% include mathjax.html %}
 
+
 # Research
 
 My research interests are in algorithmic game theory and mechanism design, bounded rationality, and computational complexity.
 
 | [DBLP](https://dblp.org/pid/313/9274) | [Google Scholar](https://scholar.google.com/citations?user=JPEeftgAAAAJ&hl=en) | [ORCiD](https://orcid.org/0000-0002-8007-1655) |
+
 
 ## Publications
 
@@ -24,30 +26,28 @@ My research interests are in algorithmic game theory and mechanism design, bound
 	- Thomas Archbold, Bart de Keijzer, Carmine Ventre
 	- [AAMAS 2023](https://dl.acm.org/doi/10.5555/3545946.3598884), [arxiv](https://arxiv.org/abs/2202.06660)
 
+
 ## Working Papers
 
 Some!
 
+
 ## Teaching
 
-This year I am helping to teach:
-- 4CCE1MAP Mathematics and programming for engineers
-- 5CCM251A Discrete mathematics
-- 6CCE3EAL Engineering algorithms
-- 6CCM359A Numerical and computational method
-- 6CCS3AIN Artificial intelligence 
-- 6CCS3OME Optimization methods
-
-Previously I have taught:
-- 6CCS3AIN Artificial Intelligence Reasoning and Decision Making (2022/23)
+At King's I taught the following modules:
+- 6CCS3AIN Artificial Intelligence Reasoning and Decision Making (2022/23-24)
 	- sequential decision making, Markov Decision Processes, etc.
-- 6CCS3OME Optimization Methods (2020/21, 2021/22, 2022/23)
-	- single-source shortest path, all-pairs shortest path, network flow, linear
-	programming, optimisation techniques for NP-hard problems
-- 4CCS1DST Data Structures (2021/22, 2022/23)
+- 6CCS3OME Optimization Methods (2020/21-24)
+	- single-source shortest path, all-pairs shortest path, network flow, linear programming, optimisation techniques for NP-hard problems
+- 4CCS1DST Data Structures (2021/22-23)
 	- data structures and algorithms, searching, sorting
 - 4CCS1FC1 Foundations of Computing I (2022/23)
 	- introductory course on mathematics for computer science
+- 4CCE1MAP Mathematics and programming for engineers (2023/24)
+- 5CCM251A Discrete mathematics (2023/24)
+- 6CCE3EAL Engineering algorithms (2023/24)
+- 6CCM359A Numerical and computational methods (2023/24)
+
 
 ## DAI Seminar
 

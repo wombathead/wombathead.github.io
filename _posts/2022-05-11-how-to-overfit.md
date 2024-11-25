@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Overfit
+title: How to overfit
 date: 2022-05-11
 lastEdited: 2022-05-22 21:00
 ---
@@ -14,7 +14,7 @@ $$ 4, 17, 46, 97, 176, 289 $$
 If we don't know the function that generates the sequence then it could be anything.
 But can we construct a function that agrees with each of the terms given and gives us an idea of what the next term could be?
 
-## The Setup
+## Setup
 
 Suppose there is some function $$f : \mathbb{N} \to \mathbb{R}$$ that generates the $$n$$th term of our mystery sequence, but we only have access to the first $$k$$ terms of the sequence, i.e., $$(u_1,u_2,\ldots,u_k)$$.
 We will guess the next term of the sequence by constructing a function $$g_k : \mathbb{N} \to \mathbb{R}$$ based on the first $$k$$ observations of the sequence such that $$g_k(n) = u_n$$ for all $$n \in [k] = \{ 1, \ldots, k \}$$.
