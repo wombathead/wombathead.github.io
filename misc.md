@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Misc.
-navOrder: 4
+navOrder: 6
 ---
 
 # Miscellanious content
@@ -15,8 +15,21 @@ Here are some links. They are mostly for me to keep track of but I can't stop yo
 - [other](#other)
 - [to read](#to-read)
 
+### Photography
+
+- [Richard Haw](https://richardhaw.com/)
+- (https://petapixel.com/2017/10/03/nikon-cameras-used-nasa/)
+- [Tim Chapman and the NASA Nikons](https://www.timmchapman.com/page/nasa-nikons/https://www.timmchapman.com/page/nasa-nikons/)
+
+
+## Aviation
+
+- Buy planes: [Tsunami Air](https://tsunamiair.com/)
+
+
 ## Blogs
 
+- [PPRUNE](https://www.pprune.org/archive/index.php/f-57.html)
 - [Scott Aaronson's blog](https://www.scottaaronson.com/blog/)
 - [Lance Fortnow and Bill Gasarch's blog](https://blog.computationalcomplexity.org/)
 - [Richard Lipton's blog](https://rjlipton.wpcomstaging.com/)
@@ -49,6 +62,7 @@ Here are some links. They are mostly for me to keep track of but I can't stop yo
 - [Mike Bostock](https://bost.ocks.org/mike/) (especially [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/)
 - [Brian Bilston](https://brianbilston.com/)
 
+
 ## Short Reads
 
 - [The Four Dirty C-Words of the Internet](https://pauljun.me/the-four-dirty-c-words-of-the-internet)
@@ -56,14 +70,10 @@ Here are some links. They are mostly for me to keep track of but I can't stop yo
 - [A Sound of Thunder](http://www.astro.sunysb.edu/fwalter/AST389/ASoundofThunder.pdf)
 - [The Ph.D. Octopus](https://www.uky.edu/~eushe2/Pajares/octopus.html)
 - [Perl, the first postmodern computer language](http://www.wall.org/~larry/pm.html)
-- [How to Look for Ideas in Computer Science
-  Research](https://medium.com/digital-diplomacy/how-to-look-for-ideas-in-computer-science-research-7a3fa6f4696f)
-- [What's going on here, with this
-  human?](https://grahamduncan.blog/whats-going-on-here/)
-- [Consider the
-  Lobster](https://genius.com/David-foster-wallace-consider-the-lobster-annotated)
-- [Who can name the bigger
-  number?](https://www.scottaaronson.com/writings/bignumbers.html)
+- [How to Look for Ideas in Computer Science Research](https://medium.com/digital-diplomacy/how-to-look-for-ideas-in-computer-science-research-7a3fa6f4696f)
+- [What's going on here, with this human?](https://grahamduncan.blog/whats-going-on-here/)
+- [Consider the Lobster](https://genius.com/David-foster-wallace-consider-the-lobster-annotated)
+- [Who can name the bigger number?](https://www.scottaaronson.com/writings/bignumbers.html)
 - [Principia Discordia](http://www.principiadiscordia.com/book/1.php)
 - [Lessons from my PhD](https://web.eecs.utk.edu/~azh/blog/lessonsfrommyphd.html)
 - [The Chaos](https://ncf.idallen.com/english.html) by Gerard Nolst Trenité
@@ -74,11 +84,18 @@ Here are some links. They are mostly for me to keep track of but I can't stop yo
 - [Why Are Mathematicians So Bad at Arithmetic?](https://mathwithbaddrawings.com/2017/01/11/why-are-mathematicians-so-bad-at-arithmetic/)
 - [How to have your abstract rejected](https://dl.acm.org/doi/10.1145/1810926.1810928)
 
+
+## Diving
+- [Beginner's Guide to Backplate and Wing](https://scubaboard.com/community/threads/beginners-guide-to-bp-w.575576/)
+- [The Theoretical Diver](https://scubaboard.com/community/threads/beginners-guide-to-bp-w.575576/)
+
+
 ## Open problems
 
 - [The Open Problems Project](https://topp.openproblem.net/)
 - In [computer science](https://a3nm.net/work/research/questions/)
 - [Open Problem Garden](www.openproblemgarden.org/)
+
 
 ## Programming
 
@@ -103,18 +120,18 @@ Other:
 - [Lisp tips](https://lisptips.com/)
 - [Algorithm visualisations](https://visualgo.net/en)
 
+
 ## Tools
 
 - Write without distractions at [Enso](https://write.sonnet.io/)
 - Two nice diagram tools, [quiver](https://q.uiver.app/) and
   [tikzcd](https://tikzcd.yichuanshen.de/)
-      
+
+
 ## Other
 
-- [Reality has a surprising amount of detail](http://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail)
-- [4th Grade Math Puzzle](https://groups.google.com/g/sci.math/c/QdfUFbqPWLM/m/w_tAK1XPd3YJ?pli=1)
-- [Inverse of a circle](https://mattferraro.dev/posts/inverse-of-a-circle)
-- [A high-dimensional sphere spilling out of a high-dimensional cube despite exponentially many constraints](https://stanislavfort.com/blog/sphere-spilling-out/)
+- [Rabbitwaves](https://rabbitwaves.ca/) (morse code, semaphore, signals)
+- [CNN lite](https://lite.cnn.com/) and [text-only NPR](https://text.npr.org/)
 - [Gideon and Bartholomew](https://ryanharby.com/gideon-and-bartholomew)
 - [Shoshikantetsu](https://asnewman.github.io/shoshikantetsu)
 - [Moon Lander](https://ehmorris.com/lander/)
@@ -125,10 +142,8 @@ Other:
 - [Wordle](https://www.nytimes.com/games/wordle/index.html), [Quordle](https://www.quordle.com/#/), and [Passwordle](https://rsk0315.github.io/playground/passwordle.html)
 - [City Generator](https://watabou.github.io/city-generator/) and [watabou's itch.io page](https://watabou.itch.io/)
 - [Non-transitive Dice](https://singingbanana.com/dice/article.htm)
-- [How Dr. Seuss would have proved the Halting
-  Problem](https://ebiquity.umbc.edu/blogger/2008/01/19/how-dr-suess-would-prove-the-halting-problem-undecidable/)
-- [Counterintuitive maths
-  facts](https://axisofordinary.substack.com/p/the-most-counterintuitive-facts-in)
+- [How Dr. Seuss would have proved the Halting Problem](https://ebiquity.umbc.edu/blogger/2008/01/19/how-dr-suess-would-prove-the-halting-problem-undecidable/)
+- [Counterintuitive maths facts](https://axisofordinary.substack.com/p/the-most-counterintuitive-facts-in)
 - [Grafica Obscura](http://graficaobscura.com/)
 - [Something](http://www.arf.ru/Notes/) to do with Frank Zappa
 - [The Official Ninja webpage](www.realultimatepower.net)
@@ -141,8 +156,7 @@ Other:
 - [QuantGuru](https://quantguru.ai/index.php/en/)
 - [C++ compiler](https://stackoverflow.com/questions/5508110/why-is-this-program-erroneously-rejected-by-three-c-compilers)
 - [identicon](https://github.com/identicons/wombathead.png)
-- [They Shoot Pictures, Don't
-  They?](https://www.theyshootpictures.com/index.htm)
+- [They Shoot Pictures, Don't They?](https://www.theyshootpictures.com/index.htm)
 - [Forgotify](https://forgotify.com/player.cfm)
 - [Rainbow Planes](https://booktwo.org/notebook/rainbow-plane-002-kiev/)
 - [PhD 2048](https://ymfa.github.io/phd-2048/)
@@ -157,6 +171,7 @@ Other:
 - [Wiby Surprise Me](https://wiby.me/surprise)
 - [Marginalia](https://search.marginalia.nu/explore/random)
 - [Don't Make Fun of Renowned Dan Brown](https://onehundredpages.wordpress.com/2013/06/12/dont-make-fun-of-renowned-dan-brown/)
+
 
 ## To read
 

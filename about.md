@@ -11,7 +11,7 @@ I completed my undergraduate and masters degrees in computer science at the Univ
 
 My CV is [here](/assets/thomas-archbold.pdf) (updated Nov 2024).
 
-I like aviation, space, computer programming, rugby, photography, and playing the guitar.
+I like aviation, scuba diving, photography, rugby, and playing the guitar.
 
 {% 
 	include image.html

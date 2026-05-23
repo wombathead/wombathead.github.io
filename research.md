@@ -10,6 +10,7 @@ navOrder: 3
 # Research
 
 My research interests are in algorithmic game theory and mechanism design, bounded rationality, and computational complexity.
+I have also recently become interested in quantum computation and Bernoulli factories.
 
 | [DBLP](https://dblp.org/pid/313/9274) | [Google Scholar](https://scholar.google.com/citations?user=JPEeftgAAAAJ&hl=en) | [ORCiD](https://orcid.org/0000-0002-8007-1655) |
 
@@ -24,12 +25,12 @@ My research interests are in algorithmic game theory and mechanism design, bound
 	- [IJCAI 2023](https://doi.org/10.24963/ijcai.2023/278)
 - *Non-Obvious Manipulability for Single-Parameter Agents and Bilateral Trade*
 	- Thomas Archbold, Bart de Keijzer, Carmine Ventre
-	- [AAMAS 2023](https://dl.acm.org/doi/10.5555/3545946.3598884), [arxiv](https://arxiv.org/abs/2202.06660)
+	- [ACM TEAC](https://doi.org/10.1145/3746458), [AAMAS 2023](https://dl.acm.org/doi/10.5555/3545946.3598884), [arxiv](https://arxiv.org/abs/2202.06660)
 
 
 ## Working Papers
 
-Some!
+Mechanism design with predictions, quantum information elicitation, Bernoulli factories!
 
 
 ## Teaching
