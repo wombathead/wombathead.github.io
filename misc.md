@@ -18,18 +18,12 @@ Here are some links. They are mostly for me to keep track of but I can't stop yo
 ### Photography
 
 - [Richard Haw](https://richardhaw.com/)
-- (https://petapixel.com/2017/10/03/nikon-cameras-used-nasa/)
-- [Tim Chapman and the NASA Nikons](https://www.timmchapman.com/page/nasa-nikons/https://www.timmchapman.com/page/nasa-nikons/)
-
-
-## Aviation
-
-- Buy planes: [Tsunami Air](https://tsunamiair.com/)
+- [Nikon cameras used by NASA](https://petapixel.com/2017/10/03/nikon-cameras-used-nasa/)
+- [Tim Chapman and the NASA Nikons](https://www.timmchapman.com/page/nasa-nikons/)
 
 
 ## Blogs
 
-- [PPRUNE](https://www.pprune.org/archive/index.php/f-57.html)
 - [Scott Aaronson's blog](https://www.scottaaronson.com/blog/)
 - [Lance Fortnow and Bill Gasarch's blog](https://blog.computationalcomplexity.org/)
 - [Richard Lipton's blog](https://rjlipton.wpcomstaging.com/)
@@ -53,7 +47,6 @@ Here are some links. They are mostly for me to keep track of but I can't stop yo
 - [David Morgan-Mar's blog](https://www.dangermouse.net/), [Irregular Webcomic](https://www.irregularwebcomic.net/), his [esoterica](https://www.dangermouse.net/esoteric/)
 - [Coalton](https://coalton-lang.github.io/)
 - [Sebastian Sylvan](https://www.sebastiansylvan.com/)
-- [Stormbirds](https://stormbirds.blog/)
 - [Nicky Case](https://ncase.me/)
 - [Space Kate](http://spacekate.com/)
 - [David Eppstein (11011110)](https://11011110.github.io/blog/)
@@ -83,11 +76,6 @@ Here are some links. They are mostly for me to keep track of but I can't stop yo
 - [Cocktail party ideas](https://danluu.com/cocktail-ideas/)
 - [Why Are Mathematicians So Bad at Arithmetic?](https://mathwithbaddrawings.com/2017/01/11/why-are-mathematicians-so-bad-at-arithmetic/)
 - [How to have your abstract rejected](https://dl.acm.org/doi/10.1145/1810926.1810928)
-
-
-## Diving
-- [Beginner's Guide to Backplate and Wing](https://scubaboard.com/community/threads/beginners-guide-to-bp-w.575576/)
-- [The Theoretical Diver](https://scubaboard.com/community/threads/beginners-guide-to-bp-w.575576/)
 
 
 ## Open problems
@@ -130,13 +118,11 @@ Other:
 
 ## Other
 
+- [Smiling at Confusion](https://smilingatconfusion.com/) has chord sheets and tabs for a bunch of Elliott Smith songs.
 - [Rabbitwaves](https://rabbitwaves.ca/) (morse code, semaphore, signals)
 - [CNN lite](https://lite.cnn.com/) and [text-only NPR](https://text.npr.org/)
 - [Gideon and Bartholomew](https://ryanharby.com/gideon-and-bartholomew)
 - [Shoshikantetsu](https://asnewman.github.io/shoshikantetsu)
-- [Moon Lander](https://ehmorris.com/lander/)
-- [Alaska Projects](https://omegaprototypes.com/alaska-projects/)
-- [Apollo in real time](https://apolloinrealtime.org/)
 - [Back to Space](https://soi-disant.srht.site/entries/back-to-space.html)
 - [Angus Oblong](https://www.angusoblong.com/)
 - [Wordle](https://www.nytimes.com/games/wordle/index.html), [Quordle](https://www.quordle.com/#/), and [Passwordle](https://rsk0315.github.io/playground/passwordle.html)
@@ -149,16 +135,11 @@ Other:
 - [The Official Ninja webpage](www.realultimatepower.net)
 - [Food vs. Food](https://kale.world/)
 - [Hacker News "Classics"](https://jsomers.net/hn/)
-- [Tim Davies on Quora](https://www.quora.com/profile/Tim-Davies-28)
-- Buy old military jets [here](https://www.everettaero.com/)
-- [MiG Flug](https://migflug.com/jetflights/)
 - [Cryptopals](https://cryptopals.com/)
 - [QuantGuru](https://quantguru.ai/index.php/en/)
 - [C++ compiler](https://stackoverflow.com/questions/5508110/why-is-this-program-erroneously-rejected-by-three-c-compilers)
-- [identicon](https://github.com/identicons/wombathead.png)
 - [They Shoot Pictures, Don't They?](https://www.theyshootpictures.com/index.htm)
 - [Forgotify](https://forgotify.com/player.cfm)
-- [Rainbow Planes](https://booktwo.org/notebook/rainbow-plane-002-kiev/)
 - [PhD 2048](https://ymfa.github.io/phd-2048/)
 - [Brass Eye names](https://www.cookdandbombd.co.uk/forums/index.php?topic=5771.0)
 - [Silicon Zoo](https://micro.magnet.fsu.edu/creatures/index.html)
@@ -166,7 +147,6 @@ Other:
 - [Navarin of Lamb pritanièr](https://www.bbc.co.uk/food/recipes/navarin_of_lamb_58709)
 - [CRAPL: an academic strength open source license](https://matt.might.net/articles/crapl/)
 - [Scott Aaronson's intuitive explanation of Shor's Algorithm](https://scottaaronson.blog/?p=208)
-- [Fold'NFly](https://www.foldnfly.com)
 - [Some Advice Gathered from People Smarter than Me](https://sashachapin.substack.com/p/some-advice-gathered-from-people)
 - [Wiby Surprise Me](https://wiby.me/surprise)
 - [Marginalia](https://search.marginalia.nu/explore/random)
@@ -176,10 +156,10 @@ Other:
 ## To read
 
 - Poetry:
-	- [The Tyger](https://www.poetryfoundation.org/poems/43687/the-tyger)
-  	- [The Waste Land](https://www.poetryfoundation.org/poems/47311/the-waste-land)
-  	- [The Road Not Taken](https://www.poetryfoundation.org/poems/44272/the-road-not-taken)
-  	- [The Bridge Builder](https://www.poetryfoundation.org/poems/52702/the-bridge-builder)
+  - [The Tyger](https://www.poetryfoundation.org/poems/43687/the-tyger)
+  - [The Waste Land](https://www.poetryfoundation.org/poems/47311/the-waste-land)
+  - [The Road Not Taken](https://www.poetryfoundation.org/poems/44272/the-road-not-taken)
+  - [The Bridge Builder](https://www.poetryfoundation.org/poems/52702/the-bridge-builder)
 - [Ars Longa, Vita Brevis](https://slatestarcodex.com/2017/11/09/ars-longa-vita-brevis/)
 - [Kerouac Ginsberg letters](https://granta.com/kerouac-ginsberg-the-letters/)
 - [A Brief Exposé of P-adics](https://tomrocksmaths.com/2021/07/02/a-brief-expose-of-p-adics/)
@@ -206,3 +186,5 @@ Other:
 - [The Fibonacci Network](https://blog.jordan.matelsky.com/fib-graph/)
 - [Why I'm Sceptical of Universal Basic Income](https://dynomight.net/2020/12/03/why-im-skeptical-of-UBI/)
 - [Gentle Seduction](http://www.skyhunter.com/marcs/GentleSeduction.html)
+
+
