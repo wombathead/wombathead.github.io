@@ -1,3 +1,7 @@
+img#titlebar {
+	height: 1em;
+}
+
 ul#navbar li {
 	display: inline;
 }
