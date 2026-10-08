@@ -11,6 +11,7 @@ navOrder: 3
 
 My research interests are in algorithmic game theory and mechanism design, bounded rationality, and computational complexity.
 I have also recently become interested in quantum computation and Bernoulli factories.
+My [PhD thesis](/assets/thesis.pdf) was on designing mechanisms for imperfectly rational agents that are not obviously manipulable, and broadly sits in the literature on bounded rationality mechanism design.
 
 | [DBLP](https://dblp.org/pid/313/9274) | [Google Scholar](https://scholar.google.com/citations?user=JPEeftgAAAAJ&hl=en) | [ORCiD](https://orcid.org/0000-0002-8007-1655) |
 

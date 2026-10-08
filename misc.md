@@ -17,9 +17,8 @@ Here are some links. They are mostly for me to keep track of but I can't stop yo
 
 ### Photography
 
-- [Richard Haw](https://richardhaw.com/)
-- [Nikon cameras used by NASA](https://petapixel.com/2017/10/03/nikon-cameras-used-nasa/)
-- [Tim Chapman and the NASA Nikons](https://www.timmchapman.com/page/nasa-nikons/)
+- [Richard Haw's classic Nikon maintenance site](https://richardhaw.com/)
+- [Nikon cameras used by NASA](https://petapixel.com/2017/10/03/nikon-cameras-used-nasa/) by PetaPixel, and [Tim Chapman and the NASA Nikons](https://www.timmchapman.com/page/nasa-nikons/)
 
 
 ## Blogs
