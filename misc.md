@@ -51,7 +51,7 @@ Here are some links. They are mostly for me to keep track of but I can't stop yo
 - [David Eppstein (11011110)](https://11011110.github.io/blog/)
 - [Steve Losh](https://stevelosh.com/)
 - [Milk and Cigarettes](https://milkandcigarettes.com/)
-- [Mike Bostock](https://bost.ocks.org/mike/) (especially [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/)
+- [Mike Bostock](https://bost.ocks.org/mike/) (especially [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/))
 - [Brian Bilston](https://brianbilston.com/)
 
 
