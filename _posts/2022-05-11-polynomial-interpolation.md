@@ -37,7 +37,7 @@ Since $$f$$ must pass through $$y_0$$ and $$y_1$$, we have the following system 
 
 $$
 \begin{align*}
-f(0) &= 1 &= c_0 + 0 \cdot x \\
+f(0) &= 1 &= c_0 + 0 \cdot c_1 \\
 f(1) &= 3 &= c_0 + 1 \cdot c_1
 \end{align*}
 $$
@@ -54,9 +54,9 @@ As before, this gives rise to a system of equations:
 
 $$
 \begin{align*}
-f(0) 1 &= c_0 + c_1 + c_2 \\
-f(1) 3 &= c_0 + 2 c_1 + 2^2 c_2 \\
-f(2) 73 &= c_0 + 3 c_1 + 3^2 c_2
+f(0) = 1 &= c_0 + c_1 + c_2 \\
+f(1) = 3 &= c_0 + 2 c_1 + 2^2 c_2 \\
+f(2) = 73 &= c_0 + 3 c_1 + 3^2 c_2
 \end{align*}
 $$
 
@@ -133,19 +133,22 @@ We can then verify by hand that
 
 $$
 \begin{align*}
-f(0) &= 1 &= y_0 \\
-f(1) &= 3 &= y_1 \\
-f(2) &= 73 &= y_2
+f(0) = 1 &= y_0 \\
+f(1) = 3 &= y_1 \\
+f(2) = 73 &= y_2
 \end{align*}
 $$
 
-With this function, we can generate the next term $$f(3)$$ as $$f(3) = 1 - 32(3) + 34(3^2) = 211$$.
+With this function, we can generate the next term $$f(3)$$ as
+
+$$f(3) = 1 - 32(3) + 34(3^2) = 211 .$$
+
 Let's now generalise this technique to accommodate any number of initial terms of the sequence.
 
 
 ## General method: systems of equations
 
-We are given the first $$n=k+1$$ terms of a sequence $$y_0, y_1, \ldots, y_k$$ and we want to find a function $$f(x)$$ such that $$f(i)$$ = y_i$$ for $$i = 0, 1, \ldots, k$$.
+We are given the first $$n=k+1$$ terms of a sequence $$y_0, y_1, \ldots, y_k$$ and we want to find a function $$f(x)$$ such that $$f(i) = y_i$$ for $$i = 0, 1, \ldots, k$$.
 Since there are $$k+1$$ points that $$f$$ must pass through then $$f$$ must be a polynomial of degree at most $$k$$.
 Therefore $$f$$ takes the form
 
@@ -157,10 +160,10 @@ With $$n$$ initial terms, we have the following system of equations:
 $$
 \begin{align*}
 f(0) &= c_0 ,\\
-f(1) &= c_0 + c_1 + \ldots + c_k ,\\
-f(2) &= c_0 + 2 c_1 + 4 c_2 + \ldots + 2^k c_k ,\\
+f(1) &= c_0 + c_1 + c_2 + c_3 + \ldots + c_k ,\\
+f(2) &= c_0 + 2 c_1 + 4 c_2 + 8 c_3 \ldots + 2^k c_k ,\\
 & \vdots \\
-f(k) &= c_0 + k c_1 + k^2 c_2 + \ldots + k^k c_k .
+f(k) &= c_0 + k c_1 + k^2 c_2 + k^3 c_3 + \ldots + k^k c_k .
 \end{align*}
 $$
 
@@ -173,12 +176,12 @@ The system of equations can be represented by the matrix equation $$M c = y$$, a
 $$
 c = M^{-1} y =
 \begin{bmatrix}
-    1 & 0 & 0 & \ldots & 0 \\
-    1 & 1 & 1 & \ldots & 1 \\
-    1 & 2 & 4 & \ldots & 2^k \\
-    1 & 3 & 9 & \ldots & 3^k \\
+    1 & 0 & 0 & 0 & \ldots & 0 \\
+    1 & 1 & 1 & 1 & \ldots & 1 \\
+    1 & 2 & 4 & 8 & \ldots & 2^k \\
+    1 & 3 & 9 & 27 & \ldots & 3^k \\
     \vdots & \vdots & \vdots & \vdots & \vdots \\
-    1 & k & k^2 & \ldots & k^k 
+    1 & k & k^2 & k^3 & \ldots & k^k 
 \end{bmatrix}^{-1}
 \begin{bmatrix}
     y_0 \\
@@ -197,7 +200,7 @@ The resulting function $$f(x) = \sum_{j=0}^k c_j x^j$$ passes through each $$y_i
 
 ### Going from sequences to points
 
-We are not done yet.
+We can take this further!
 With a very simple modification, we can extend our method to finding a function that not only generates the terms of a sequence, but also passes through any initial set of two dimensional points.
 Now suppose we are given as input the set of points $$P = \{ (x_0,y_0), (x_1,y_1), \ldots, (x_k,y_k) \}$$.
 Again our goal is to design the function $$f(x) = \sum_{j=0}^k c_j x^j$$, but now we will need $$f(x_i) = y_i$$ for each $$i \in \{0,1,\ldots,k\}$$.
@@ -239,6 +242,7 @@ y_k
 $$
 
 and we can solve the system again by simply taking the inverse of $$M^{-1}$$ and applying it to $$y$$.
+This gives us the values of the coefficients $$c_0, \ldots, c_k$$ and therefore gives us our polynomial $$f(x)$$ of degree $$k$$ passing through each of the points in $$P$$.
 Let's now look at another way of solving the same problem known as Lagrange interpolation.
 
 
@@ -270,6 +274,7 @@ $$
 $$
 
 just as we want.
+Therefore $$L(x)$$ is a polynomial of degree at most $$k$$ that passes through each of the points in $$P$$!
 
 **Example.**
 Let's apply Lagrange interpolation to our previous three term example.
@@ -300,8 +305,3 @@ $$
 
 This simplifies to $$L(x) = 34 x^2 - 32 x + 1$$, which is exactly what we got by solving our system of equations before.
 
-
-31 01 2027
-yellow
-2943596352
-IRN 1
