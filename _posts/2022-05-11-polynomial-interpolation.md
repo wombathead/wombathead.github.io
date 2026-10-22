@@ -50,7 +50,7 @@ Let's now suppose we are given the first three terms, $$y_0 = 1$$, $$y_1 = 3$$, 
 For two terms it sufficed to find a polynomial of degree one; now with three terms $$f$$ must instead be a polynomial of degree at most two.
 Therefore $$f(x) = c_0 + c_1 x + c_2 x^2$$.
 Again, since $$f$$ must pass through each of the terms we are given then we must have $$f(0)=1$$, $$f(1)=3$$, and $$f(2)=73$$.
-As before, this gives rise to a system of equations:
+As before gives rise to a system of equations:
 
 $$
 \begin{align*}
@@ -224,8 +224,8 @@ M =
 1 & x_0 & x_0^2 & \ldots & x_0^k \\
 1 & x_1 & x_1^2 & \ldots & x_1^k \\
 \vdots & \vdots & \vdots & \vdots & \vdots \\
-1 & x_k & x_k^2 & \ldots & x_k^k \\
-\end{bmatrix} \right]
+1 & x_k & x_k^2 & \ldots & x_k^k
+\end{bmatrix}
 \begin{bmatrix}
 c_0 \\
 c_1 \\
