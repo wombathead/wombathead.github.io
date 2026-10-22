@@ -210,7 +210,7 @@ $$
 \begin{align*}
 c_0 + c_1 x_0 + c_2 x_0^2 + \ldots + c_k x_0^k &= f(x_0) ,\\
 c_0 + c_1 x_1 + c_2 x_1^2 + \ldots + c_k x_1^k &= f(x_1) ,\\
-c_0 + c_1 x_2 + c_2 x_1^2 + \ldots + c_k x_1^k &= f(x_2) ,\\
+c_0 + c_1 x_2 + c_2 x_1^2 + \ldots + c_k x_2^k &= f(x_2) ,\\
 \vdots \\
 c_0 + c_1 x_k + c_2 x_k^2 + \ldots + c_k x_k^k &= f(x_k) .
 \end{align*}
@@ -221,14 +221,18 @@ As before, we decompose the system of linear equations into a matrix equation $$
 $$
 M = 
 \begin{bmatrix}
-1 & x_0 & x_0^2 & \ldots & x_0^k \\
-1 & x_1 & x_1^2 & \ldots & x_1^k \\
-\vdots & \vdots & \vdots & \vdots & \vdots \\
-1 & x_k & x_k^2 & \ldots & x_k^k
+1 & x_0 & x_0^2 & x_0^3 & \ldots & x_0^k \\
+1 & x_1 & x_1^2 & x_1^3 & \ldots & x_1^k \\
+1 & x_2 & x_2^2 & x_2^3 & \ldots & x_2^k \\
+1 & x_3 & x_3^2 & x_3^3 & \ldots & x_3^k \\
+\vdots & \vdots & \vdots & \vdots & \vdots & \vdots \\
+1 & x_k & x_k^2 & x_k^3 & \ldots & x_k^k
 \end{bmatrix}
 \begin{bmatrix}
 c_0 \\
 c_1 \\
+c_2 \\
+c_3 \\
 \vdots \\
 c_k
 \end{bmatrix}
@@ -251,10 +255,10 @@ Let's now look at another way of solving the same problem known as Lagrange inte
 So we've got our set of input points $$P = \{ (x_i,y_i) \}_{i \in \{ 0,1,\ldots,k \} }$$ and we still want to build a polynomial of degree at most $$k$$ that passes through all of them.
 Can we go about it in a better way?
 The idea behind Lagrange interpolation is to build a set of basis polynomials, one for each $$x_i$$, such that their weighted sum passes through all the points.
-First consider the quantity $$P_i(x) = \prod_{j \neq i} (x-x_i)$$ and notice that it has $$k$$ roots $$\{ x_i \}$$.
+First consider the quantity $$P_i(x) = \prod_{j \neq i} (x-x_j)$$ and notice that it has $$k$$ roots $$\{ x_j \}$$.
 If we now construct the basis polynomial $$\ell_i(x)$$ by defining
 
-$$ \ell_i(x) = \frac{ P_i(x) }{ \prod_{j \neq i} (x_j - x_i) } ,$$
+$$ \ell_i(x) = \frac{ P_i(x) }{ \prod_{j \neq i} (x_i - x_j) } ,$$
 
 then for every $$x_i$$ we have $$\ell_i(x_i) = 1$$, since $$P_i(x_i)$$ is simply equal to the denominator.
 Likewise, for any $$x_j \neq x_i$$ we have $$\ell_i(x_j) = 0$$.
