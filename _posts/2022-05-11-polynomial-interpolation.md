@@ -222,7 +222,7 @@ M =
 1 & x_1 & x_1^2 & \ldots & x_1^k \\
 \vdots & \vdots & \vdots & \vdots & \vdots \\
 1 & x_k & x_k^2 & \ldots & x_k^k \\
-\end{array} \right]
+\end{bmatrix} \right]
 \begin{bmatrix}
 c_0 \\
 c_1 \\
@@ -247,10 +247,10 @@ Let's now look at another way of solving the same problem known as Lagrange inte
 So we've got our set of input points $$P = \{ (x_i,y_i) \}_{i \in \{ 0,1,\ldots,k \} }$$ and we still want to build a polynomial of degree at most $$k$$ that passes through all of them.
 Can we go about it in a better way?
 The idea behind Lagrange interpolation is to build a set of basis polynomials, one for each $$x_i$$, such that their weighted sum passes through all the points.
-First consider the quantity $$P_i(x) = \Prod_{j \neq i} (x-x_i)$$ and notice that it has $$k$$ roots $$\{ x_i \}$$.
+First consider the quantity $$P_i(x) = \prod_{j \neq i} (x-x_i)$$ and notice that it has $$k$$ roots $$\{ x_i \}$$.
 If we now construct the basis polynomial $$\ell_i(x)$$ by defining
 
-$$ \ell_i(x) = \frac{ P_i(x) }{ \Prod_{j \neq i} (x_j - x_i) ,$$
+$$ \ell_i(x) = \frac{ P_i(x) }{ \prod_{j \neq i} (x_j - x_i) ,$$
 
 then for every $$x_i$$ we have $$\ell_i(x_i) = 1$$, since $$P_i(x_i)$$ is simply equal to the denominator.
 Likewise, for any $$x_j \neq x_i$$ we have $$\ell_i(x_j) = 0$$.
