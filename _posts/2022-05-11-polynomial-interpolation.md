@@ -254,7 +254,7 @@ The idea behind Lagrange interpolation is to build a set of basis polynomials, o
 First consider the quantity $$P_i(x) = \prod_{j \neq i} (x-x_i)$$ and notice that it has $$k$$ roots $$\{ x_i \}$$.
 If we now construct the basis polynomial $$\ell_i(x)$$ by defining
 
-$$ \ell_i(x) = \frac{ P_i(x) }{ \prod_{j \neq i} (x_j - x_i) ,$$
+$$ \ell_i(x) = \frac{ P_i(x) }{ \prod_{j \neq i} (x_j - x_i) } ,$$
 
 then for every $$x_i$$ we have $$\ell_i(x_i) = 1$$, since $$P_i(x_i)$$ is simply equal to the denominator.
 Likewise, for any $$x_j \neq x_i$$ we have $$\ell_i(x_j) = 0$$.
