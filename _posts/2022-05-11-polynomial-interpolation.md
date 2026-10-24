@@ -27,7 +27,7 @@ We could look at the third, fourth, and fifth level differences and work our way
 
 We can formalise the problem in the following way.
 Suppose we are given the first $$n=k+1$$ terms of a sequence $$y_0, y_1, \ldots, y_k$$.
-We want to find a function $$f(x)$$ such that for each $$i = 0, 1, \ldots, y_k$$ we have $$f(x) = y_i$$.
+We want to find a function $$f(x)$$ such that for each $$i = 0, 1, \ldots, y_k$$ we have $$f(i) = y_i$$.
 Let's start by thinking about how we would do it if we were only given two terms, and let's take the sequence at the top of the page as our running example.
 As there are two terms we have $$y_0 = 1$$ and $$y_1 = 3$$, therefore we want to find the function $$f(x)$$ such that $$f(0) = 1$$ and $$f(1) = 3$$.
 We can then use this to find $$f(2)$$.
@@ -37,8 +37,8 @@ Since $$f$$ must pass through $$y_0$$ and $$y_1$$, we have the following system 
 
 $$
 \begin{align*}
-f(0) &= 1 &= c_0 + 0 \cdot c_1 \\
-f(1) &= 3 &= c_0 + 1 \cdot c_1
+f(0) = 1 &= c_0 + 0 \cdot c_1 \\
+f(1) = 3 &= c_0 + 1 \cdot c_1
 \end{align*}
 $$
 
@@ -50,13 +50,13 @@ Let's now suppose we are given the first three terms, $$y_0 = 1$$, $$y_1 = 3$$, 
 For two terms it sufficed to find a polynomial of degree one; now with three terms $$f$$ must instead be a polynomial of degree at most two.
 Therefore $$f(x) = c_0 + c_1 x + c_2 x^2$$.
 Again, since $$f$$ must pass through each of the terms we are given then we must have $$f(0)=1$$, $$f(1)=3$$, and $$f(2)=73$$.
-As before gives rise to a system of equations:
+As before gives us a system of equations:
 
 $$
 \begin{align*}
-f(0) = 1 &= c_0 + c_1 + c_2 \\
-f(1) = 3 &= c_0 + 2 c_1 + 2^2 c_2 \\
-f(2) = 73 &= c_0 + 3 c_1 + 3^2 c_2
+f(0) = 1 &= c_0 \\
+f(1) = 3 &= c_0 + c_1 + c_2 \\
+f(2) = 73 &= c_0 + 2 c_1 + 4 c_2
 \end{align*}
 $$
 
@@ -133,9 +133,9 @@ We can then verify by hand that
 
 $$
 \begin{align*}
-f(0) = 1 &= y_0 \\
-f(1) = 3 &= y_1 \\
-f(2) = 73 &= y_2
+f(0) = 1 &= y_0 ,\\
+f(1) = 3 &= y_1 ,\\
+f(2) = 73 &= y_2 .
 \end{align*}
 $$
 
@@ -160,9 +160,12 @@ With $$n$$ initial terms, we have the following system of equations:
 $$
 \begin{align*}
 f(0) &= c_0 ,\\
-f(1) &= c_0 + c_1 + c_2 + c_3 + \ldots + c_k ,\\
+f(1) &= c_0 + \ldots + c_k ,\\
 f(2) &= c_0 + 2 c_1 + 4 c_2 + 8 c_3 \ldots + 2^k c_k ,\\
-& \vdots \\
+f(3) &= c_0 + 3 c_1 + 9 c_2 + 27 c_3 \ldots + 3^k c_k ,\\
+\vdots & \\
+f(i) &= c_0 + i \cdot c_1 + i^2 \cdot c_2 + i^3 \cdot c_3 + \ldots + i^k \cdot c_k \\
+\vdots & \\
 f(k) &= c_0 + k c_1 + k^2 c_2 + k^3 c_3 + \ldots + k^k c_k .
 \end{align*}
 $$
@@ -196,6 +199,8 @@ $$
 And that's all there is to it.
 Once we have generated the matrix $$M$$ and found its inverse $$M^{-1}$$, we simply apply it to the vector $$y$$ and we have found our coefficients $$c_0, \ldots, c_k$$.
 The resulting function $$f(x) = \sum_{j=0}^k c_j x^j$$ passes through each $$y_i$$ at $$i$$ for $$i \in \{0,1,\ldots,k\}$$.
+
+**Bigger example.**
 
 
 ### Going from sequences to points
@@ -240,6 +245,8 @@ c_k
 \begin{bmatrix}
 y_0 \\
 y_1 \\
+y_2 \\
+y_3 \\
 \vdots \\
 y_k
 \end{bmatrix},
@@ -309,3 +316,7 @@ $$
 
 This simplifies to $$L(x) = 34 x^2 - 32 x + 1$$, which is exactly what we got by solving our system of equations before.
 
+So there you have it.
+Two fun ways to interpolate any number of points.
+I stumbled across this topic while trying to solve a Porject Euler problem and came up with the method using matrix inversion myself, then a few years later I was teaching an undergraduate maths course and I came across Lagrange interpolation, and it seemed pretty interesting so I thought I'd write about them both here.
+Go forth and interpolate!
